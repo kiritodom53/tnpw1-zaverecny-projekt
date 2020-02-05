@@ -1,0 +1,77 @@
+*{
+    color: #000!important;
+    clear: both;
+}
+
+body{
+    background-color: fuchsia;
+    width: 100%;
+    position: relative;
+}
+
+.breakp{
+    page-break-before: always!important;
+    page-break-after: always!important;
+    /*page-break-after: avoid;*/
+}
+h2{
+    page-break-before: always!important;
+    page-break-after: always!important;
+    /*page-break-after: avoid;*/
+}
+
+
+.pr--art-end{
+    /*page-break-before: always;*/
+    /*page-break-after: avoid!important;*/
+    page-break-after: avoid;
+}
+
+.img-title{
+    display: none;
+}
+
+.pr--wrap{
+    position: relative;
+}
+
+
+h3 {
+    /*page-break-after: avoid;*/
+    page-break-after: avoid;
+}
+table.print-friendly tr td, table.print-friendly tr th {
+    position: relative;
+    page-break-inside: avoid;
+}
+
+.print-disable{
+    display: none;
+    visibility: hidden;
+}
+
+#container{
+    position: relative;
+    width: 100%;
+    border-style: none!important;
+}
+.con-right{
+    clear:both;
+    width: 100%;
+    float: none;
+    top: unset;
+
+}
+.con-left{
+    clear: both;
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    float: unset;
+    top: unset;
+}
+
+.menu-mobile, #nav, #nav2{
+    display: none;
+    visibility: hidden;
+}

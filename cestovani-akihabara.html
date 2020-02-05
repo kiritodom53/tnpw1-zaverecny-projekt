@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Akihabara</title>
+    <meta name='robots' content='all'>
+    <link rel="icon" sizes="16x16 32x32 64x64" href="_img/favicon/favicon.ico">
+    <!-- ======================= CCS - START ========================= -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/prispevky.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/non-js-menu.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <!-- ======================== CCS - END ========================== -->
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- JQuery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JavaScript -->
+    <script src="js/menu.js"></script>
+</head>
+<body>
+<!-- Header -->
+<header>
+    <h1 class="page-title">&nbsp;Akihabara - druhá strana Japonska</h1>
+</header>
+<!-- Start Menu -->
+<!-- === JS menu -->
+<div class="menu-mobile">
+    <div class="item"><span class="menu-item noselect"><i class="fas fa-bars"></i> Menu</span></div>
+</div>
+<nav id="nav">
+    <!-- JS menu -->
+    <div class="_menu" id="menu1">
+        <!-- TODO: předělat responzivitu menu na pc -->
+        <div class="wrap">
+            <div class="pre-item" id="menu00">
+                <div class="item"><a href="index.html">Domů</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <!-- TODO: Menu udělat jako cisloMenu-nazev např.: 00-uvod, 03-svatky -->
+            <div class="pre-item" id="menu01">
+                <div class="item"><span class="menu-item noselect">Japonsko</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jp-uvod.html">Úvod</a></div>
+                    <div class="sub-item"><a href="jp-historie.html">Kousek historie</a></div>
+                    <div class="sub-item disable"><a href="#">Šintoismus</a></div>
+                    <div class="sub-item disable"><a href="#">Geografie</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu02">
+                <div class="item"><span class="menu-item noselect">Japonština</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jpn-o_jazyku.html">O Jazyku</a></div>
+                    <div class="sub-item"><a href="jpn-zakladni_fraze.html">Základní fráze</a></div>
+                    <div class="sub-item"><a href="jpn-pomucky.html">Výuka - pomůcky</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu03">
+                <div class="item"><a href="galerie.html">Galerie</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item active-menu" id="menu04">
+                <!-- TODO: provizorní menu na sub-menu, předělat -->
+                <div class="item"><span class="menu-item noselect">Cestování</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a></div>
+                    <div class="sub-item disable"><a href="#">Tokyo</a></div>
+                    <div class="sub-item"><a href="cestovani-kyoto.html">Kyoto</a></div>
+                    <div class="sub-item"><a href="cestovani-svatky.html">Svátky</a></div>
+                    <div class="sub-item"><a href="cestovani-akihabara.html">Akihabara</a></div>
+                    <div class="sub-item disable"><a href="#">Peníze</a></div>
+                    <div class="sub-item disable"><a href="#">Ostatní informace</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu05">
+                <div class="item"><span class="menu-item noselect">Pop-Kultura</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="pop_kultura-manga.html">Anime/Manga</a></div>
+                    <div class="sub-item"><a href="pop_kultura-festivaly.html">Festivaly</a></div>
+                    <div class="sub-item disable"><a href="#">Karaoke</a></div>
+                    <div class="sub-item disable"><a href="#">Cosplay</a></div>
+                    <div class="sub-item disable"><a href="#">Idolové</a></div>
+                    <div class="sub-item disable"><a href="#">Purikura</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu06">
+                <div class="item"><a href="dokumentace.html">Dokumentace</a></div>
+            </div>
+            <!-- ================================================================= -->
+        </div>
+    </div>
+</nav>
+<nav id="nav2">
+    <!-- Hover menu -->
+    <div class="_menu menu2" id="menu2">
+        <ul class="ul-menu02 main-navigation">
+            <li class="li-menu02"><a href="index.html">Domů</a></li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonsko</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jp-uvod.html">Úvod</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jp-historie.html">Kousek historie</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonština</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jpn-o_jazyku.html">O Jazyku</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-zakladni_fraze.html">Základní fráze</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-pomucky.html">Výuka - pomůcky</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="galerie.html">Galerie</a>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02 active-menu"><a href="#">Cestování</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a>
+                    </li>
+                    <li class="li-menu02 disable">
+                        <a href="#">Tokyo</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-kyoto.html">Kyoto</a>
+                    </li>
+                    <li class="li-menu02" style="display: block;">
+                        <a href="cestovani-svatky.html">Svátky</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-akihabara.html">Akihabara</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Pop-Kultura</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="pop_kultura-manga.html">Anime/Manga</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="pop_kultura-festivaly.html">Festivaly</a>
+                    </li>
+                </ul>
+            </li><!-- ======================================== -->
+            <li class="li-menu02"><a href="dokumentace.html">Dokumentace</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- ============ CONTAINER =================== -->
+<div id="container">
+    <img class="img-title" src="_img/akihabara/aki-back.jpg" alt="Kyoto">
+    <!-- ======================================================================================================== -->
+    <div class="con-right">
+        <div class="pr--wrap">
+            <iframe class="google-map wd-100per print-disable" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619.988009382834!2d139.77333254156426!3d35.702207744752826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea73ea6f4ff%3A0x5eb9f1e50fe061e3!2sAkihabara%2C+Tait%C5%8D%2C+Prefektura+Tokio+110-0006%2C+Japonsko!5e0!3m2!1scs!2scz!4v1543455223191" width="220" height="450" style="border:0;" allowfullscreen></iframe>
+        </div>
+        <div class="pr--wrap">
+            <h3 class="pr--title-h3">Akihabara</h3>
+            <figure style="margin: 5px;">
+                <div class="pr--wrap-center">
+                    <img class="info-text" src="_img/akihabara/akiba-small.jpg" alt="Akiba">
+                </div>
+                <figcaption>Akihabara v roce 2007</figcaption>
+            </figure>
+        </div>
+    </div>
+    <!-- =================================== -->
+    <div class="con-left">
+        <!-- Nadpis -->
+        <h2 class="pr--title-h2">Akihabara</h2>
+        <!-- Úvod -->
+        <div class="pr--wrap">
+            <p class="pr--text">
+                Akihabara (také nazývána Akiba) je městská část v centru Tokya, která je především známa díky velkému množství obchodu s elektronikou. V poslední letech se stala uznávaným centrem japonské „otaku“ kultury a mnoho obchodů věnující se anime a manze jsou rozeseté po celé Akihabaře. Akihibara prošla řadou rozsáhlých rekonstrukcí, včetně renovace a rozšíření stanice Akihabara a výstavbě nových budov. Mezi těmito nově otevřenými budovami byl obrovský obchod s elektronikou Yodobashi a Akihabara Crossfield. Obrovský komplex s cílem propagovat Akihabaru jako centrum pro celosvětovou elektronickou technologii a obchod.
+            </p>
+        <!-- Yodobashi Camera -->
+            <article>
+                <h3>Yodobashi Camera</h3>
+                <img src="_img/akihabara/yodobashi.jpg" class="wd-100per-mobile" alt="Yodobashi Camera">
+                <p class="pr--text">
+                    Jeden z nejlepších obchodů s elektronikou v Japonsku, kde koupíte i to nejnovější zboží. Jedná se o devíti poschoďoví obchodní dům, kde můžete nalézt nejširší výběr elektroniky. Můžete zde strávit klidně i 2 – 3 hodiny. Yodobashi se nachází v přední části stanice Akihabara.
+                </p>
+            </article>
+            <!-- ==================== -->
+            <article>
+                <h3>Maid Cafe (Maid kavárny)</h3>
+                <img src="_img/akihabara/maidCafe.jpg" class="wd-100per-mobile wd-100per" alt="Maid Cafe">
+                <p class="pr--text">
+                    Maid Cafe je jedna z nejbizarnějších věcí Akihabary v Tokiu. Maid Cafe je místo, kde mladé děvčata servírují hostům v roztomilých maid kostýmech (oblek služebné) a nazývají vás "mistrem" (goshujin-sama). Nejvíce kaváren se nachází právě v oblasti Akihabary. Je to jedna z neznámnějších atrakcí v Tokiu.
+                </p>
+            </article>
+            <article>
+                <h3>Mandarake</h3>
+                <img src="_img/akihabara/mandarake.jpg" class="wd-100per-mobile wd-100per" alt="Mandarake">
+                <p class="pr--text">
+                    Mandarake je nazýván největší obchod s mangou a anime na světě. Zabývá se použitými předměty souvisejícími s mangou, anime, hrami, PVC postaviček a spoustu vzácných či sběratelských předmětů, které s největší pravděpodobností najdete jenom v Mandaraku.
+                </p>
+            </article>
+            <!-- TODO: https://jw-webmagazine.com/akihabara-area-ultimate-guide-2017-8d1d1070641f -->
+        </div>
+    </div>
+</div>
+<!-- ============= CONTAINER - END ============== -->
+<footer>
+    <div class="credit">&copy; 2018 <a href="http://www.mandinecdominik.cz">Mandinec Dominik</a> - Studentský zápočtový projekt #FIM UHK</div>
+</footer>
+</body>
+</html>

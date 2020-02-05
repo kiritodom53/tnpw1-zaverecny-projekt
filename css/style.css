@@ -1,0 +1,301 @@
+/* TODO: předělat csska aby byla více smysluplná*/
+* {
+    box-sizing: border-box!important;
+}
+
+body {
+    background-color: #c9c9c9;
+    width: 75%;
+    margin: 0px auto;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+header{
+    width: 100%;
+    margin: 0px auto;
+    height: 60px;
+    background-color: #0D2D38;
+    /*position: relative;*/
+}
+footer{
+    width: 100%;
+    margin: 0px auto;
+    background-color: #0D2D38;
+    height: 40px;
+    color: #ffffff;
+}
+
+/* Nadpis stránky */
+h1.page-title{
+    color: #FFF;
+    font-size: 26px;
+    line-height: 2.5;
+    text-align: center;
+    margin-top: 0;
+}
+
+h3{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+div#container{
+    overflow: hidden;
+    border: 1px solid #0D2D38;
+    padding: 2%;
+    background-color: #fff;
+}
+
+/* container left */
+.con-left{
+    width: 75%;
+    float: left;
+}
+/* container right */
+.con-right{
+    width: 23%;
+    float: right;
+    top: 0;
+}
+
+.warning{
+    color: #DD002F;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.img-title{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.h300{
+    height: 300px!important;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+img.info-text{
+    width: 100%;
+}
+
+ul.anime-zanr > li{
+    list-style-type: none;
+}
+ul.anime-zanr > li > ul > li{
+    list-style-type: disc;
+}
+
+span.jpn-font{
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 18px;
+}
+.jpn-font2{
+    font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.hiragana{
+    font-size: 24px;
+    border: 1px solid black;
+}
+.hiragana > tbody > tr > td{
+    border: 1px solid black;
+}
+
+.disable{
+    display: none!important;
+    visibility: hidden!important;
+}
+
+.visible{
+    visibility: visible;
+    display: block;
+}
+
+.gallery-img{
+    width: 100%;
+    text-align: center;
+}
+
+ol{
+    list-style-type: disc;
+}
+
+.gal-im{
+    width: 100%;
+}
+.gal-im > img{
+    width: 24%;
+}
+
+.gal-manga > img{
+    object-fit: cover;
+    height: 200px;
+}
+
+.contact-info > li{
+    list-style-type: none;
+}
+
+form > input, textarea{
+    width: 100%;
+}
+form > input.input-text:focus, textarea.input-text:focus{
+    border-bottom: 5px solid #0D2D38;
+}
+
+.google-map{
+    margin-top: 20px;
+}
+table.tbl-jrp{
+    border: 1px solid #c9c9c9;
+    margin: 0px auto;
+    border-collapse: collapse;
+}
+
+table.tbl-jrp > tbody > tr > td, th{
+    padding: 15px;
+}
+
+.b-colapse{
+    border-collapse: collapse;
+}
+
+.c9{
+    background-color: #c9c9c9;
+}
+
+.mapa{
+    width: 100%;
+}
+
+.credit{
+    text-align: center;
+    line-height: 2.5;
+}
+
+/* Vypnutí JS menu */
+div#menu1{
+    display: none;
+}
+
+.active-menu{background-color: #6C203A!important;}
+
+/* Pomocné třídy */
+.wd-60per{width: 60%;}
+.wd-80per{width: 80%;}
+.wd-70per{width: 70%;}
+.wd-90per{width: 90%;}
+.wd-100per{width: 100%;}
+.txt-left{text-align: left;}
+.txt-right{text-align: right;}
+.txt-center{text-align: center;}
+.float-left{float: left;}
+p.justify{text-align: justify;}
+.border-1p{border: 1px solid black;}
+.in-bl{display: inline-block;}
+.italic{font-style: italic;}
+.grey{background-color: #e4e4e4;}
+.font-size{font-size: 26px!important;}
+.bold{font-weight: bold;}
+
+@media only screen and (max-width:480px) {
+    /* For mobile phones: 620*/
+    body{
+        width: 100%;
+        /*background-color: khaki;*/
+    }
+    footer{
+        line-height: 1.3!important;
+    }
+
+    .hiragana{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .mbl-center{
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .gal-im{
+        display: block;
+        width: 100%;
+    }
+    .gal-im > img{
+        width: 100%;
+    }
+    .gal-manga > img{
+        height: auto;
+    }
+    .con-left{
+        width: 100%;
+    }
+    .con-right{
+        width: 100%;
+    }
+    .google-map{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .credit{
+        line-height: 1.3;
+    }
+    .wd-100per-mobile{width: 100%;}
+    table.tbl-jrp > tbody > tr > td, th {
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+    body{
+        width: 100%!important;
+        /*background-color: aqua;*/
+    }
+    .mbl-center{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .hiragana{
+        width: 100%;
+    }
+    .gal-im{
+        display: block;
+        width: 100%;
+    }
+    .gal-im > img{
+        width: 100%;
+    }
+    .gal-manga > img{
+        height: auto;
+    }
+    .con-left{
+        width: 100%;
+    }
+    .con-right{
+        width: 100%;
+    }
+    .google-map{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .wd-100per-mobile{width: 100%;}
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1280px) {
+    .con-left{
+        width: 100%;
+    }
+    .con-right{
+        width: 100%;
+    }
+    .google-map{
+        margin-top: 20px;
+        width: 100%;
+    }
+}

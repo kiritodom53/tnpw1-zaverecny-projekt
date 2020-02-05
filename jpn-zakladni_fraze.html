@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Základní fráze japonštiny</title>
+    <meta name='robots' content='all'>
+    <link rel="icon" sizes="16x16 32x32 64x64" href="_img/favicon/favicon.ico">
+    <!-- ======================= CCS - START ========================= -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/prispevky.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="css/non-js-menu.css">
+    <!-- ======================== CCS - END ========================== -->
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+<body>
+<header>
+    <h1 class="page-title">&nbsp;Základní fráze japonštiny</h1>
+</header>
+<!-- Start Menu -->
+<div class="menu-mobile">
+    <div class="item"><span class="menu-item noselect"><i class="fas fa-bars"></i> Menu</span></div>
+</div>
+<nav id="nav">
+    <!-- JS menu -->
+    <div class="_menu" id="menu1">
+        <!-- TODO: předělat responzivitu menu na pc -->
+        <div class="wrap">
+            <div class="pre-item" id="menu00">
+                <div class="item"><a href="index.html">Domů</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <!-- TODO: Menu udělat jako cisloMenu-nazev např.: 00-uvod, 03-svatky -->
+            <div class="pre-item" id="menu01">
+                <div class="item"><span class="menu-item noselect">Japonsko</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jp-uvod.html">Úvod</a></div>
+                    <div class="sub-item"><a href="jp-historie.html">Kousek historie</a></div>
+                    <div class="sub-item disable"><a href="#">Šintoismus</a></div>
+                    <div class="sub-item disable"><a href="#">Geografie</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item active-menu" id="menu02">
+                <div class="item"><span class="menu-item noselect">Japonština</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jpn-o_jazyku.html">O Jazyku</a></div>
+                    <div class="sub-item"><a href="jpn-zakladni_fraze.html">Základní fráze</a></div>
+                    <div class="sub-item"><a href="jpn-pomucky.html">Výuka - pomůcky</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu03">
+                <div class="item"><a href="galerie.html">Galerie</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu04">
+                <!-- TODO: provizorní menu na sub-menu, předělat -->
+                <div class="item"><span class="menu-item noselect">Cestování</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a></div>
+                    <div class="sub-item disable"><a href="#">Tokyo</a></div>
+                    <div class="sub-item"><a href="cestovani-kyoto.html">Kyoto</a></div>
+                    <div class="sub-item"><a href="cestovani-svatky.html">Svátky</a></div>
+                    <div class="sub-item"><a href="cestovani-akihabara.html">Akihabara</a></div>
+                    <div class="sub-item disable"><a href="#">Peníze</a></div>
+                    <div class="sub-item disable"><a href="#">Ostatní informace</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu05">
+                <div class="item"><span class="menu-item noselect">Pop-Kultura</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="pop_kultura-manga.html">Anime/Manga</a></div>
+                    <div class="sub-item"><a href="pop_kultura-festivaly.html">Festivaly</a></div>
+                    <div class="sub-item disable"><a href="#">Karaoke</a></div>
+                    <div class="sub-item disable"><a href="#">Cosplay</a></div>
+                    <div class="sub-item disable"><a href="#">Idolové</a></div>
+                    <div class="sub-item disable"><a href="#">Purikura</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu06">
+                <div class="item"><a href="dokumentace.html">Dokumentace</a></div>
+            </div>
+            <!-- ================================================================= -->
+        </div>
+    </div>
+</nav>
+<nav id="nav2">
+    <!-- Hover menu -->
+    <div class="_menu menu2" id="menu2">
+        <ul class="ul-menu02 main-navigation">
+            <li class="li-menu02"><a href="index.html">Domů</a></li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonsko</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jp-uvod.html">Úvod</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jp-historie.html">Kousek historie</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02 active-menu"><a href="#">Japonština</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jpn-o_jazyku.html">O Jazyku</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-zakladni_fraze.html">Základní fráze</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-pomucky.html">Výuka - pomůcky</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="galerie.html">Galerie</a>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Cestování</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a>
+                    </li>
+                    <li class="li-menu02 disable">
+                        <a href="#">Tokyo</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-kyoto.html">Kyoto</a>
+                    </li>
+                    <li class="li-menu02" style="display: block;">
+                        <a href="cestovani-svatky.html">Svátky</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-akihabara.html">Akihabara</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Pop-Kultura</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="pop_kultura-manga.html">Anime/Manga</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="pop_kultura-festivaly.html">Festivaly</a>
+                    </li>
+                </ul>
+            </li><!-- ======================================== -->
+            <li class="li-menu02"><a href="dokumentace.html">Dokumentace</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Konec Menu -->
+<!-- ============ CONTAINER =================== -->
+<div id="container">
+    <!-- ================================================================================================================== -->
+    <div class="pr--wrap">
+        <!-- ================ Začátek fráze =================== -->
+        <h2 class="pr--title-h2">Základní fráze pro cestování po Japonsku</h2>
+        <p class="pr--text">
+            Pokud budete cestovat po Japonsku, určitě se vám budou hodit tyto fráze:
+        </p>
+        <div class="fraze">
+            <h3>#01. <span class="jpn-font2">はい</span> (hai)</h3>
+            <p class="pr--odpoved">
+                Ano
+            </p>
+            <p class="pr--text pr--odstavec">
+                "Ano" může také znamenat jako "rozumím".
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#02. <span class="jpn-font2">いいえ</span> (iie)</h3>
+            <p class="pr--odpoved">
+                Ne
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#03. <span class="jpn-font2">ありがとうございます</span> (arigatou gozaimasu)</h3>
+            <p class="pr--odpoved">
+                Moc děkuji.
+            </p>
+            <p class="pr--text pr--odstavec">
+                Použitelné v mnoha situacích.
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#04. <span class="jpn-font2">お願いします</span> (onegaishimasu)</h3>
+            <p class="pr--odpoved">
+                Prosím.
+            </p>
+            <p class="pr--text pr--odstavec">
+                Používá se při objednání jídel, při nějakém požadavku nebo požádání o pomoc.
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#05. <span class="jpn-font2">すみません </span> (sumimasen)</h3>
+            <p class="pr--odpoved">
+                Promiňte.
+            </p>
+            <p class="pr--text pr--odstavec">
+                Používá se, například když omylem do někoho vrazíte a chcete se omluvit. Dále při požádání o pozornost. (např. Promiňte, mohu se zeptat, kde najdu...).
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#06. <span class="jpn-font2">ごめんなさい </span> (gomen  nasai)</h3>
+            <p class="pr--odpoved">
+                Moc se omlouvám.
+            </p>
+            <p class="pr--text pr--odstavec">
+                Sumimasen by vám mělo vystačit v hodně situacích. Touto frází dáte najevo, že vám je něčeho opravdu líto a opravdu se moc omlouváte. Po omluvě můžete např. říct, jestli je dotyčný v pořádku (daijoubu desu ka?).
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#07. <span class="jpn-font2">わかりません</span> (wakarimasen)</h3>
+            <p class="pr--odpoved">
+               Nerozumím/Nechápu.
+            </p>
+            <p class="pr--text pr--odstavec">
+                Pokud někomu nerozumíte co říkal, jednoduše řeknete "wakarimasen".
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#08. <span class="jpn-font2">いらない</span> (iranai)</h3>
+            <p class="pr--odpoved">
+                To nepotřebuji.
+            </p>
+            <p class="pr--text pr--odstavec">
+                Pokud vám například nabízejí zboží v obchodě a vy ho nechtete, jednoduše řekněte "iranai".
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#09. <span class="jpn-font2">日本語がわかりません</span> (nihongo ga wakarimasen)</h3>
+            <p class="pr--odpoved">
+               Nerozumím japonštině.
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#10. <span class="jpn-font2">英語を話せますか</span> (eigo o hanasemasu ka)</h3>
+            <p class="pr--odpoved">
+               Mluvíte anglicky?
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#11. <span class="jpn-font2">もう一度お願いします</span> (mou ichido onegai shimasu)</h3>
+            <p class="pr--odpoved">
+               Můžete to prosím zopakovat?
+            </p>
+            <p class="pr--text pr--odstavec">
+                Pokud nebudete rozumnět celé větě, řekněte tuto frázi. Japonci vám většinou danou větu zopkají v lehčím podání.
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#12. <span class="jpn-font2">わかりません</span> (wakarimasen)</h3>
+            <p class="pr--odpoved">
+               Nerozumím/Nechápu.
+            </p>
+            <p class="pr--text pr--odstavec">
+                Pokud někomu nerozumíte co říkal, jednoduše řeknete "wakarimasen".
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#13. <span class="jpn-font2">_______ はどこですか</span> (______ wa doko desu ka)</h3>
+            <p class="pr--odpoved">
+               Kde je _______?/Kde najdu ________?
+            </p>
+            <p class="pr--text pr--odstavec">
+                Jednoduchá fráze, pro zeptání se, kde najdete určité místo.
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#14. <span class="jpn-font2">いくらですか？</span> (ikura desu ka)</h3>
+            <p class="pr--odpoved">
+               Kolik to stojí?
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#15. <span class="jpn-font2">______ はありますか</span> (______ wa arimasu ka)</h3>
+            <p class="pr--odpoved">
+               Máte _______?
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+        <!-- ================ Začátek fráze =================== -->
+        <div class="fraze">
+            <h3>#16. <span class="jpn-font2">ごちそうさまでした</span> (gochisousama deshita)</h3>
+            <p class="pr--odpoved">
+               Děkuji za jídlo.
+            </p>
+        </div>
+        <!-- ================= Konec fráze ==================== -->
+    </div>
+</div>
+<!-- ============= CONTAINER - END ============== -->
+<footer>
+    <div class="credit">&copy; 2018 <a href="http://www.mandinecdominik.cz">Mandinec Dominik</a> - Studentský zápočtový projekt #FIM UHK</div>
+</footer>
+</body>
+</html>

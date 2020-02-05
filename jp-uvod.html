@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Japonská kultura</title>
+    <meta name='robots' content='all'>
+    <link rel="icon" sizes="16x16 32x32 64x64" href="_img/favicon/favicon.ico">
+    <!-- ======================= CCS - START ========================= -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/prispevky.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="css/non-js-menu.css">
+    <!-- ======================== CCS - END ========================== -->
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+<body>
+<header>
+    <h1 class="page-title">&nbsp;Japonská "otaku" kultura</h1>
+</header>
+<!-- Start Menu -->
+<div class="menu-mobile">
+    <div class="item"><span class="menu-item noselect"><i class="fas fa-bars"></i> Menu</span></div>
+</div>
+<nav id="nav">
+    <!-- JS menu -->
+    <div class="_menu" id="menu1">
+        <!-- TODO: předělat responzivitu menu na pc -->
+        <div class="wrap">
+            <div class="pre-item" id="menu00">
+                <div class="item"><a href="index.html">Domů</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <!-- TODO: Menu udělat jako cisloMenu-nazev např.: 00-uvod, 03-svatky -->
+            <div class="pre-item active-menu" id="menu01">
+                <div class="item"><span class="menu-item noselect">Japonsko</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jp-uvod.html">Úvod</a></div>
+                    <div class="sub-item"><a href="jp-historie.html">Kousek historie</a></div>
+                    <div class="sub-item disable"><a href="#">Šintoismus</a></div>
+                    <div class="sub-item disable"><a href="#">Geografie</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu02">
+                <div class="item"><span class="menu-item noselect">Japonština</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jpn-o_jazyku.html">O Jazyku</a></div>
+                    <div class="sub-item"><a href="jpn-zakladni_fraze.html">Základní fráze</a></div>
+                    <div class="sub-item"><a href="jpn-pomucky.html">Výuka - pomůcky</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu03">
+                <div class="item"><a href="galerie.html">Galerie</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu04">
+                <!-- TODO: provizorní menu na sub-menu, předělat -->
+                <div class="item"><span class="menu-item noselect">Cestování</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a></div>
+                    <div class="sub-item disable"><a href="#">Tokyo</a></div>
+                    <div class="sub-item"><a href="cestovani-kyoto.html">Kyoto</a></div>
+                    <div class="sub-item"><a href="cestovani-svatky.html">Svátky</a></div>
+                    <div class="sub-item"><a href="cestovani-akihabara.html">Akihabara</a></div>
+                    <div class="sub-item disable"><a href="#">Peníze</a></div>
+                    <div class="sub-item disable"><a href="#">Ostatní informace</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu05">
+                <div class="item"><span class="menu-item noselect">Pop-Kultura</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="pop_kultura-manga.html">Anime/Manga</a></div>
+                    <div class="sub-item"><a href="pop_kultura-festivaly.html">Festivaly</a></div>
+                    <div class="sub-item disable"><a href="#">Karaoke</a></div>
+                    <div class="sub-item disable"><a href="#">Cosplay</a></div>
+                    <div class="sub-item disable"><a href="#">Idolové</a></div>
+                    <div class="sub-item disable"><a href="#">Purikura</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu06">
+                <div class="item"><a href="dokumentace.html">Dokumentace</a></div>
+            </div>
+            <!-- ================================================================= -->
+        </div>
+    </div>
+</nav>
+<nav id="nav2">
+    <!-- Hover menu -->
+    <div class="_menu menu2" id="menu2">
+        <ul class="ul-menu02 main-navigation">
+            <li class="li-menu02"><a href="index.html">Domů</a></li>
+            <!-- ======================================== -->
+            <li class="li-menu02 active-menu"><a href="#">Japonsko</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jp-uvod.html">Úvod</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jp-historie.html">Kousek historie</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonština</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jpn-o_jazyku.html">O Jazyku</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-zakladni_fraze.html">Základní fráze</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-pomucky.html">Výuka - pomůcky</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="galerie.html">Galerie</a>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Cestování</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a>
+                    </li>
+                    <li class="li-menu02 disable">
+                        <a href="#">Tokyo</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-kyoto.html">Kyoto</a>
+                    </li>
+                    <li class="li-menu02" style="display: block;">
+                        <a href="cestovani-svatky.html">Svátky</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-akihabara.html">Akihabara</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Pop-Kultura</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="pop_kultura-manga.html">Anime/Manga</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="pop_kultura-festivaly.html">Festivaly</a>
+                    </li>
+                </ul>
+            </li><!-- ======================================== -->
+            <li class="li-menu02"><a href="dokumentace.html">Dokumentace</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Konec Menu -->
+<!-- ============ CONTAINER =================== -->
+<div id="container">
+    <!-- ================================================================================================================== -->
+    <div class="pr--wrap">
+        <h2 class="pr--title-h2">Japonsko</h2>
+        <article>
+            <figure class="float-left pr--fg-img">
+                <div class="pr--wrap-center">
+                    <img class="border-1p" src="_img/jp-flag.png" alt="Japonská vlajka" width="300">
+                </div>
+                <figcaption>Japonská vlajka</figcaption>
+            </figure>
+            <h3>Úvod</h3>
+            <p class="pr--text">
+                O Japonsku můžeme říct, že je zcela odlišné od všech zemí, které jste doposud navštívili, nebo navštívíte. Největší podíl na tom má naprostá historická izolace Japonska od okolního světa. Kromě pár států jako je např. Čína, se Japonsko od všech izolovalo.
+            </p>
+            <p class="pr--text">
+                Krásu a velikost této "Země vycházejícího slunce" těžko shrnout do několika slov. Je to něco co by měl člověk aspoň jednou zažít.
+            </p>
+            <p class="pr--text">
+                Japonsko nám ukazuje mnoho věcí, které my vnímáme jinak. Ať už se jedná o kulturní dědictví, bohatou historii, ubytování nebo kuchyni. Někomu se vybaví japonský komiks manga a anime, nebo pouze růžové kvetoucí sakury.
+            </p>
+            <p class="pr--text">
+                Japonsko leží na východním okraji asijského kontinentu. Je tvořen řetězcem ostrovů. Největší a hlavní ostrovy jsou:
+            </p>
+            <ul>
+                <li>Hokkaidó</li>
+                <li>Honšú</li>
+                <li>Šikoku</li>
+                <li>Kjúšú</li>
+            </ul>
+        </article>
+    </div>
+</div>
+<!-- ============= CONTAINER - END ============== -->
+<footer>
+    <div class="credit">&copy; 2018 <a href="http://www.mandinecdominik.cz">Mandinec Dominik</a> - Studentský zápočtový projekt #FIM UHK</div>
+</footer>
+</body>
+</html>

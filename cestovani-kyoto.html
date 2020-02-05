@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Japonská kultura - Kyoto</title>
+    <meta name='robots' content='all'>
+    <link rel="icon" sizes="16x16 32x32 64x64" href="_img/favicon/favicon.ico">
+    <!-- ======================= CCS - START ========================= -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/prispevky.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="css/non-js-menu.css">
+    <!-- ======================== CCS - END ========================== -->
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- JQuery import -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- JavaScript -->
+    <script src="js/menu.js"></script>
+</head>
+<body>
+<header>
+    <h1 class="page-title">Kyoto</h1>
+</header>
+<!-- Start Menu -->
+<div class="menu-mobile">
+    <div class="item"><span class="menu-item noselect"><i class="fas fa-bars"></i> Menu</span></div>
+</div>
+<nav id="nav">
+    <!-- JS menu -->
+    <div class="_menu" id="menu1">
+        <!-- TODO: předělat responzivitu menu na pc -->
+        <div class="wrap">
+            <div class="pre-item" id="menu00">
+                <div class="item"><a href="index.html">Domů</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <!-- TODO: Menu udělat jako cisloMenu-nazev např.: 00-uvod, 03-svatky -->
+            <div class="pre-item" id="menu01">
+                <div class="item"><span class="menu-item noselect">Japonsko</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jp-uvod.html">Úvod</a></div>
+                    <div class="sub-item"><a href="jp-historie.html">Kousek historie</a></div>
+                    <div class="sub-item disable"><a href="#">Šintoismus</a></div>
+                    <div class="sub-item disable"><a href="#">Geografie</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu02">
+                <div class="item"><span class="menu-item noselect">Japonština</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jpn-o_jazyku.html">O Jazyku</a></div>
+                    <div class="sub-item"><a href="jpn-zakladni_fraze.html">Základní fráze</a></div>
+                    <div class="sub-item"><a href="jpn-pomucky.html">Výuka - pomůcky</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu03">
+                <div class="item"><a href="galerie.html">Galerie</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item active-menu" id="menu04">
+                <!-- TODO: provizorní menu na sub-menu, předělat -->
+                <div class="item"><span class="menu-item noselect">Cestování</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a></div>
+                    <div class="sub-item disable"><a href="#">Tokyo</a></div>
+                    <div class="sub-item"><a href="cestovani-kyoto.html">Kyoto</a></div>
+                    <div class="sub-item"><a href="cestovani-svatky.html">Svátky</a></div>
+                    <div class="sub-item"><a href="cestovani-akihabara.html">Akihabara</a></div>
+                    <div class="sub-item disable"><a href="#">Peníze</a></div>
+                    <div class="sub-item disable"><a href="#">Ostatní informace</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu05">
+                <div class="item"><span class="menu-item noselect">Pop-Kultura</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="pop_kultura-manga.html">Anime/Manga</a></div>
+                    <div class="sub-item"><a href="pop_kultura-festivaly.html">Festivaly</a></div>
+                    <div class="sub-item disable"><a href="#">Karaoke</a></div>
+                    <div class="sub-item disable"><a href="#">Cosplay</a></div>
+                    <div class="sub-item disable"><a href="#">Idolové</a></div>
+                    <div class="sub-item disable"><a href="#">Purikura</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu06">
+                <div class="item"><a href="dokumentace.html">Dokumentace</a></div>
+            </div>
+            <!-- ================================================================= -->
+        </div>
+    </div>
+</nav>
+<nav id="nav2">
+    <!-- Hover menu -->
+    <div class="_menu menu2" id="menu2">
+        <ul class="ul-menu02 main-navigation">
+            <li class="li-menu02"><a href="index.html">Domů</a></li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonsko</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jp-uvod.html">Úvod</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jp-historie.html">Kousek historie</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonština</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jpn-o_jazyku.html">O Jazyku</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-zakladni_fraze.html">Základní fráze</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-pomucky.html">Výuka - pomůcky</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="galerie.html">Galerie</a>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02 active-menu"><a href="#">Cestování</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a>
+                    </li>
+                    <li class="li-menu02 disable">
+                        <a href="#">Tokyo</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-kyoto.html">Kyoto</a>
+                    </li>
+                    <li class="li-menu02" style="display: block;">
+                        <a href="cestovani-svatky.html">Svátky</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-akihabara.html">Akihabara</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Pop-Kultura</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="pop_kultura-manga.html">Anime/Manga</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="pop_kultura-festivaly.html">Festivaly</a>
+                    </li>
+                </ul>
+            </li><!-- ======================================== -->
+            <li class="li-menu02"><a href="dokumentace.html">Dokumentace</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Konec Menu -->
+<!-- ============ CONTAINER =================== -->
+<div id="container">
+    <img class="img-title" src="_img/kyoto-back2.jpg" alt="Kyoto">
+    <div class="con-right">
+        <div class="pr--wrap">
+            <iframe class="google-map wd-100per print-disable" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372473.22653939!2d135.75012075216043!3d35.05117455721832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a8d6cd3cc3f1%3A0xc0961d366bbb1d3d!2sKj%C3%B3to%2C+Prefektura+Kj%C3%B3to%2C+Japonsko!5e0!3m2!1scs!2scz!4v1543147489283" width="220" height="450" style="border:0;" allowfullscreen></iframe>
+        </div>
+        <div class="pr--wrap border-1p">
+            <article>
+                <h3 class="pr--title-h3">Kjóto</h3>
+                <figure style="margin: 5px;">
+                    <div class="pr--wrap-center">
+                        <img class="info-text" src="_img/Kyoto01.jpg" alt="Kyoto">
+                    </div>
+                    <figcaption>Pohled od chrámu Kijomizu-dera</figcaption>
+                </figure>
+            </article>
+            <!-- ============== -->
+            <article>
+                <h3 class="pr--title-h3">Poloha</h3>
+                <table class="wd-100per txt-left b-colapse">
+                    <tbody>
+                    <tr class="grey">
+                        <th>Stát</th>
+                        <td>Japonsko</td>
+                    </tr>
+                    <tr>
+                        <th>Region</th>
+                        <td>Kansai</td>
+                    </tr>
+                    <tr class="grey">
+                        <th>Prefektura</th>
+                        <td>Kyoto</td>
+                    </tr>
+                    <tr class="txt-center">
+                        <td colspan="2"><img class="wd-90per" src="_img/jpn-map.jpg" alt="Kyoto"></td>
+                    </tr>
+                    <tr class="grey">
+                        <th>Rozloha</th>
+                        <td>827,90 km²</td>
+                    </tr>
+                    <tr>
+                        <th>Počet obyvatel</th>
+                        <td>1 464 990 (2008)</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </article>
+        </div>
+    </div>
+    <!-- ========================================================================================================= -->
+    <!-- ========================================================================================================= -->
+    <div class="con-left">
+        <!-- ===================================================================================================== -->
+        <div class="pr--wrap">
+            <h2 class="pr--title-h2">Úvod</h2>
+            <article>
+                <figure class="float-left pr--fg-img">
+                    <div class="pr--wrap-center">
+                        <img src="_img/sagano2.jpg" alt="Fotografie lesa Sagano Bamboo Forest v Kjótu" width="250">
+                    </div>
+                    <figcaption>Sagano Bamboo Forest, Kyoto.</figcaption>
+                </figure>
+                <h3>Bývalé hlavní město</h3>
+                <p class="pr--text">
+                    Ve zdejších ulicích se po staletí odehrávaly nejvýznamnější události japonských dějin. Atmosféra světa pravých samurajů je tady dodnes cítit na každém kroku
+                </p>
+            </article>
+            <!-- ============= -->
+            <article>
+                <h3>Nejkrásnější historické město Japonska</h3>
+                <p class="pr--text">
+                    Kjóto patří mezi nejlépe dochovaná města Japonska s největším počtem památek zapsaných na Seznamu světového dědictví UNESCO. Historické místo s tisícovkou chrámů a stovkami svatyní je tak právem považováno za kulturní centrum země.
+                </p>
+            </article>
+        </div>
+        <!-- ================================================================================================================ -->
+        <div class="pr--wrap pr--art-end">
+            <h2 class="pr--title-h2">Kyoto</h2>
+            <article>
+                <h3>Kyoto: japonský klenot, v němž není času nazbyt</h3>
+                <p class="pr--text">
+                    Po více než tisíc let plnilo Kjóto funkci hlavního města Japonska. Zažilo vrcholné období rozkvětu tradiční japonské kultury, stalo se místem s hojným výskytem tajuplných gejš a zdejší vládci, bohatá šlechta i duchovní si tu nechávali stavět nádherné chrámy, svatyně a paláce.
+                </p>
+                <!--h3>Nejkrásnější historické město Japonska</h3>-->
+                <p class="pr--text">
+                    Dnes mohou cestovatelé v rozlehlém Kjótu obdivovat na 1500 buddhistických chrámů, 200 šintoistických svatyní, velké množství vyhlášených zahrad a mnoho dalších historicky cenných staveb. Celkem 17 objektů na území Kjóta bylo zapsáno na Seznam světového dědictví UNESCO.                </p>
+
+                <p class="pr--text">
+                    Člověk by zde mohl strávit týdny, ba i dlouhé měsíce a stejně by nezvládl vidět vše, co město nabízí. Pokud máte na Kjóto vyhrazeno jen málo času, je třeba si návštěvu dobře naplánovat a prozkoumávat tuto starou císařskou metropoli v co největším možném klidu bez toho, abyste se snažili vidět za každou cenu co nejvíce zdejších památek.
+                </p>
+
+                <p class="pr--text">
+                    Je téměř jisté, že stejně nezvládnete vidět vše, co jste měli v plánu. Zkuste si raději jednotlivá místa pořádně vychutnat, vnímejte jejich atmosféru a řiďte se heslem „méně je někdy více“.
+                </p>
+            </article>
+            <!-- ============= -->
+            <article>
+                <h3>Kjóto jako sídelní město japonských císařů</h3>
+                <p class="pr--text">
+                    Od roku 794 až do roku 1868 bylo Kjóto hlavním městem celé země. V roce 794 se císař Kammu rozhodl přestěhovat sem svůj dvůr z Nary a stanovil Kjóto sídelním městem japonských císařů. Tehdy město získalo název Heiankjó – metropole míru a klidu. Období od roku 794 až do roku 1192 se nazývá Heian a bývá označováno jako kjótský zlatý věk.
+                </p>
+                <p class="pr--text">
+                    Císařský dvůr byl tehdy středobodem japonského vesmíru, město kulturně vzkvétalo, vznikaly honosné stavby a rozvíjelo se umění. Na konci 12. století pak většinu města zničil požár a nedlouho poté přešlo Kjóto pod správu vojenských vládců a samurajů.
+                </p>
+            </article>
+            <!-- ============= -->
+            <article>
+                <h3>Jak v Kjótu nejlépe hospodařit s časem?</h3>
+                <p class="pr--text">
+                    Kjóto je velmi rozlehlé a turisticky nejatraktivnější místa jsou rozeseta po celém městě. Ze třech stran obklopují město hory a mnoho nejkrásnějších památek se nachází na jejich úpatí. Kjóto protíná metro, železniční síť a jezdí zde také městské autobusy. Ty jsou společně s taxi tím nejlepším dopravním prostředkem, který si můžete pro poznávání Kjóta zvolit, protože metrem ani vlakem se zdaleka všude nedostanete.
+                </p>
+                <p class="pr--text">
+                    Několik společností v Kjótu provozuje turistické hop-on/hop-off autobusy, které vás zavezou přímo k těm nejzajímavějším památkám, a ušetří vám tak spoustu času oproti běžné městské hromadné dopravě. Nabídky těchto společností najdete přímo na kjótském hlavním vlakovém nádraží nebo v některém z městských infocenter.
+                </p>
+            </article>
+        </div>
+        <!-- ===================================================================================================================== -->
+
+    </div>
+</div>
+<!-- ============= CONTAINER - END ============== -->
+<footer>
+    <div class="credit">&copy; 2018 <a href="http://www.mandinecdominik.cz">Mandinec Dominik</a> - Studentský zápočtový projekt #FIM UHK</div>
+</footer>
+
+</body>
+</html>

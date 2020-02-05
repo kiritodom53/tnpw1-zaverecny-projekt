@@ -1,0 +1,104 @@
+div#menu2 > ul.ul-menu02, div#menu2 > ul.ul-menu02 > li.li-menu02 > ul.ul-menu02 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /*background: #4e1026;*/
+    text-align: center;
+}
+div#menu2 > ul.ul-menu02 li.li-menu02 {
+    display: inline-block;
+    position: relative;
+    /*float: left;*/
+    background: #4e1026;
+}
+/* Zkryje sub-menu */
+li.li-menu02 ul.ul-menu02 { display: none; }
+ul.ul-menu02 li.li-menu02 a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #fff;
+}
+ul.ul-menu02 li.li-menu02 a:hover { /*background: #2c3e50;*/ }
+/* Zobrazí sub-menu */
+li.li-menu02:hover > ul.ul-menu02 {
+    display: block;
+    position: absolute;
+    background-color: #4e1026;
+}
+li.li-menu02:hover li.li-menu02 { float: none; }
+li.li-menu02:hover a { /*background: #4e1026;*/ }
+li.li-menu02:hover li.li-menu02 a:hover { /*background: #2c3e50;*/
+    font-style: italic; }
+.main-navigation{ width: 100%;}
+.main-navigation li.li-menu02 ul.ul-menu02 li.li-menu02 { border-top: 0; bottom: 0;}
+/* 2 lvl sub-menu, asi vymaž, nakonec nepoužíváš */
+ul.ul-menu02 ul.ul-menu02 ul.ul-menu02 {
+    left: 100%;
+    top: 0;
+}
+
+#nav2 {
+    font-size: 28px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 0px;
+    width: 100%;
+    color: #FFF;
+    background-color: #4e1026;
+    margin: 0px auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+@media only screen and (max-width:480px) {
+    ul.ul-menu02 li.li-menu02 {
+        display: block;
+    }
+    li.li-menu02:hover > ul.ul-menu02 {
+        display: block;
+        position: absolute;
+        z-index: 5000;
+        background: #2c3e50;
+    }
+    li.li-menu02:hover a {
+        background: #2c3e50;
+        text-align: center;
+    }
+    li.li-menu02 ul.ul-menu02{
+        width: 100%;
+    }
+    div#menu2 > ul.ul-menu02 li.li-menu02 {
+        width: 100%;
+    }
+    #nav2{
+        position: static;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    ul.ul-menu02 li.li-menu02 {
+        display: block;
+    }
+    li.li-menu02:hover > ul.ul-menu02 {
+        display: block;
+        position: absolute;
+        z-index: 5000;
+        background: #2c3e50;
+    }
+    li.li-menu02:hover a {
+        background: #2c3e50;
+        text-align: center;
+    }
+    li.li-menu02 ul.ul-menu02{
+        width: 100%;
+    }
+    #nav2{
+        position: static;
+    }
+    div#menu2 > ul.ul-menu02 li.li-menu02 {
+        width: 100%;
+    }
+}

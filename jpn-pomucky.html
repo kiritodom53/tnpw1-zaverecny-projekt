@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+        <html lang="cs">
+        <head>
+            <meta charset="UTF-8">
+            <title>Japonština pomůcky</title>
+            <meta name='robots' content='all'>
+            <link rel="icon" sizes="16x16 32x32 64x64" href="_img/favicon/favicon.ico">
+            <!-- ======================= CCS - START ========================= -->
+            <link rel="stylesheet" type="text/css" href="css/normalize.css">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <link rel="stylesheet" type="text/css" href="css/prispevky.css">
+            <link rel="stylesheet" type="text/css" href="css/menu.css">
+            <link rel="stylesheet" type="text/css" href="css/non-js-menu.css">
+            <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+            <!-- ======================== CCS - END ========================== -->
+            <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="js/menu.js"></script>
+        </head>
+<body>
+<header>
+    <h1 class="page-title">&nbsp;Kanji Study</h1>
+</header>
+<!-- Start Menu -->
+<div class="menu-mobile">
+    <div class="item"><span class="menu-item noselect"><i class="fas fa-bars"></i> Menu</span></div>
+</div>
+<nav id="nav">
+    <!-- JS menu -->
+    <div class="_menu" id="menu1">
+        <!-- TODO: předělat responzivitu menu na pc -->
+        <div class="wrap">
+            <div class="pre-item" id="menu00">
+                <div class="item"><a href="index.html">Domů</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <!-- TODO: Menu udělat jako cisloMenu-nazev např.: 00-uvod, 03-svatky -->
+            <div class="pre-item" id="menu01">
+                <div class="item"><span class="menu-item noselect">Japonsko</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jp-uvod.html">Úvod</a></div>
+                    <div class="sub-item"><a href="jp-historie.html">Kousek historie</a></div>
+                    <div class="sub-item disable"><a href="#">Šintoismus</a></div>
+                    <div class="sub-item disable"><a href="#">Geografie</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item active-menu" id="menu02">
+                <div class="item"><span class="menu-item noselect">Japonština</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jpn-o_jazyku.html">O Jazyku</a></div>
+                    <div class="sub-item"><a href="jpn-zakladni_fraze.html">Základní fráze</a></div>
+                    <div class="sub-item"><a href="jpn-pomucky.html">Výuka - pomůcky</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu03">
+                <div class="item"><a href="galerie.html">Galerie</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu04">
+                <!-- TODO: provizorní menu na sub-menu, předělat -->
+                <div class="item"><span class="menu-item noselect">Cestování</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a></div>
+                    <div class="sub-item disable"><a href="#">Tokyo</a></div>
+                    <div class="sub-item"><a href="cestovani-kyoto.html">Kyoto</a></div>
+                    <div class="sub-item"><a href="cestovani-svatky.html">Svátky</a></div>
+                    <div class="sub-item"><a href="cestovani-akihabara.html">Akihabara</a></div>
+                    <div class="sub-item disable"><a href="#">Peníze</a></div>
+                    <div class="sub-item disable"><a href="#">Ostatní informace</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu05">
+                <div class="item"><span class="menu-item noselect">Pop-Kultura</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="pop_kultura-manga.html">Anime/Manga</a></div>
+                    <div class="sub-item"><a href="pop_kultura-festivaly.html">Festivaly</a></div>
+                    <div class="sub-item disable"><a href="#">Karaoke</a></div>
+                    <div class="sub-item disable"><a href="#">Cosplay</a></div>
+                    <div class="sub-item disable"><a href="#">Idolové</a></div>
+                    <div class="sub-item disable"><a href="#">Purikura</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu06">
+                <div class="item"><a href="dokumentace.html">Dokumentace</a></div>
+            </div>
+            <!-- ================================================================= -->
+        </div>
+    </div>
+</nav>
+<nav id="nav2">
+    <!-- Hover menu -->
+    <div class="_menu menu2" id="menu2">
+        <ul class="ul-menu02 main-navigation">
+            <li class="li-menu02"><a href="index.html">Domů</a></li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonsko</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jp-uvod.html">Úvod</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jp-historie.html">Kousek historie</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02 active-menu"><a href="#">Japonština</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jpn-o_jazyku.html">O Jazyku</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-zakladni_fraze.html">Základní fráze</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-pomucky.html">Výuka - pomůcky</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="galerie.html">Galerie</a>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Cestování</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a>
+                    </li>
+                    <li class="li-menu02 disable">
+                        <a href="#">Tokyo</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-kyoto.html">Kyoto</a>
+                    </li>
+                    <li class="li-menu02" style="display: block;">
+                        <a href="cestovani-svatky.html">Svátky</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-akihabara.html">Akihabara</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Pop-Kultura</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="pop_kultura-manga.html">Anime/Manga</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="pop_kultura-festivaly.html">Festivaly</a>
+                    </li>
+                </ul>
+            </li><!-- ======================================== -->
+            <li class="li-menu02"><a href="dokumentace.html">Dokumentace</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Konec Menu -->
+<!-- ================ CONTAINER =================== -->
+<div id="container">
+    <!-- Levá strana -->
+    <div class="con-left">
+        <!-- =========================================================================================== -->
+        <div class="pr--wrap">
+            <h2 class="pr--title-h2">Učební pomůcky</h2>
+            <h3>Učebnice japonštiny LEDA</h3>
+            <p class="pr--text">
+                D. Nymburská, D. Vostrá, M. Sawatari
+            </p>
+            <figure class="float-left pr--fg-img">
+                <div class="pr--wrap-center">
+                    <img src="_img/japonstina/leda.jpg" alt="Učebnice Leda" width="200">
+                </div>
+                <figcaption>Učebnice Leda</figcaption>
+            </figure>
+            <p class="pr--text italic">
+                Oficiální text:
+            </p>
+            <p class="pr--text">
+                Moderní učebnicový komplet, vhodný pro výuku v jazykových kurzech i pro samouky. Klade důraz na komunikaci v běžné každodenní situaci. Systematicky vykládá gramatiku a umožňuje zvládnutí složitého systému písma i zvukové stránky jazyka. Seznamuje uživatele s reáliemi současného života a kultury. Důležitou pomůckou je samostatný sešit písma, v němž jsou probrány obě japonské abecedy i základní čínské znaky s přehledným rozpisem tahů a s čísly, podle nichž lze znak najít v nejpoužívanějších znakových slovnících. Třetí částí učebnicového kompletu je japonsko-český a česko-japonský slovníček a klíč ke cvičením. Zvládnutí fonetické stránky jazyka umožní dvě CD s nahrávkami cvičení a článků namluvenými rodilými mluvčími. Neocenitelnou součástí je i další CD s textovým editorem pro japonštinu.
+            </p>
+            <p class="pr--text italic">
+                <span class="bold">Datum vydání:</span> 2007 | <span class="bold">Stran:</span> 384, 120 a 144 | <span class="bold">ISBN:</span> 978-80-7335-074-1
+            </p>
+            <h3>Ukázky:</h3>
+            <ol class="ukazky">
+                <li>Učebnici (gramatika)
+                    <a target="_blank" href="_img/japonstina/japonstina-ukazka.pdf">............<strong>Ukázka</strong></a>
+                </li>
+                <li>
+                    Pracovní sešit - písmo<a target="_blank" href="_img/japonstina/pismo-ukazka.pdf">.........<strong>Ukázka</strong></a>
+                </li>
+                <li>
+                    Slovíčka a klíč k ps<a target="_blank" href="_img/japonstina/slovklic-ukazka.pdf">.................<strong>Ukázka</strong></a>
+                </li>
+            </ol>
+            <p>
+                Ukáza audio:
+            </p>
+            <audio controls>
+                <source src="_img/japonstina/CD-ukazka.ogg" type="audio/ogg">
+                <source src="_img/japonstina/CD-ukazka.mp3" type="audio/mpeg">
+                Váš prohlížeč nepodporuje audio element.
+            </audio>
+            <!-- ======================== -->
+        </div>
+        <div class="pr--wrap">
+            <h3>Japan Activator / JA Sensei</h3>
+            <p class="pr--text">
+                <a href="http://www.japan-activator.com/" class="pr--odkaz" target="_blank">www.japan-activator.com</a>
+                <br>
+                <a href="https://play.google.com/store/apps/details?id=com.japanactivator.android.jasensei&hl=cs" class="pr--odkaz" target="_blank">JA Sensei - Android</a>
+            </p>
+            <figure class="float-left pr--fg-img">
+                <div class="pr--wrap-center">
+                    <img src="_img/japonstina/jasensei.png" alt="JA Sensei" width="200">
+                </div>
+                <figcaption>Učebnice Leda</figcaption>
+            </figure>
+            <p class="pr--text italic">
+                Oficiální text:
+            </p>
+            <p class="pr--text">
+                Kompletní sada pro studium japonštiny! JA Sensei poskytuje přehledné japonské lekce a mnoho interaktivních cvičení týkajících se hiragany, katakany, kanji, japonské slovní zásoby, japonských frází pro vaše cesty, čísla, slovesa, atd. Audio, volby a kreslící kvízy (nakreslete kanji pro zodpovězení otázky !) vám uloží do paměti, co jste se naučili. Pokud jste nejistí v oblasti japonštiny, studia japonštiny, nebo chcete získat JLPT, JA Sensei se stane vaším neocenitelným pomocníkem.
+            </p>
+            <!-- ======================== -->
+        </div>
+        <div class="pr--wrap">
+            <h3>Japanese Kanji Study - <span class="jpn-font2">漢字学習</span></h3>
+            <p class="pr--text">
+                <a href="https://play.google.com/store/apps/details?id=org.nick.kanjirecognizer" class="pr--odkaz" target="_blank">Japanese Kanji Study - <span class="jpn-font2">漢字学習</span> - Android</a>
+            </p>
+            <figure class="float-left pr--fg-img">
+                <div class="pr--wrap-center">
+                    <img src="_img/japonstina/kanjistudy.png" alt="Kanji Study" width="200">
+                </div>
+                <figcaption>Japanese Kanji Study</figcaption>
+            </figure>
+            <p class="pr--text italic">
+                Oficiální text:
+            </p>
+            <p class="pr--text">
+                Kanji study je projekt, který se snaží být pomocný při učení Japosnkých kanji. Učte se pomocí "flashcards", přizpůsobitelných kvízů a kontroly psaných kanji. Ke každému znaku jsou detailní informace a mnoho příkladů jeho použití. Aplikace nabízí vyhledávací nástroj pro vyhledávání kanji pomocí radikálů, počtu tahů atd.. Také si můžete vytvořit vlastní seznam, a soustředit se na ty nejvíce obtížné znaky.
+            </p>
+            <p class="pr--text">
+                Aplikace není zcela zdarma, ale i přesto neobsahuje žádné reklamy a nemá žádné omezení v oblasti hiragany, katakany a začátečnických kanji. Jednorázový upgrade vám odemkne ostatní kanji, a dovolí vytvářet vlastní seznamy. Také tím podpoříte budoucí vývoj aplikace.
+            </p>
+            <!-- ======================== -->
+        </div>
+        <div class="pr--wrap">
+            <h3>Kanji Recognizer</h3>
+            <p class="pr--text">
+                <a href="https://play.google.com/store/apps/details?id=org.nick.kanjirecognizer" class="pr--odkaz" target="_blank">Kanji Recognizer - Android</a>
+            </p>
+            <figure class="float-left pr--fg-img">
+                <div class="pr--wrap-center">
+                    <img src="_img/japonstina/kanjirecognizer.png" alt="Kanji Recognizer" width="200">
+                </div>
+                <figcaption>Kanji Recognizer</figcaption>
+            </figure>
+            <p class="pr--text italic">
+                Text:
+            </p>
+            <p class="pr--text">
+                Slovník Japonských kanji (integrováno pomocí WWWJDIC).
+            </p>
+            <!-- ======================== -->
+        </div>
+        <div class="pr--wrap">
+            <h3>Další pomůcky a aplikace</h3>
+            <ul>
+                <li><a class="pr--odkaz" href="http://konoha.fjfi.cvut.cz/?q=jap" target="_blank">konoha.cz</a></li>
+                <li><a class="pr--odkaz" href="https://www.jazyky-online.info/japonstina/" target="_blank">jazyky-online.info</a></li>
+                <li><a class="pr--odkaz" href="http://kmlinux.fjfi.cvut.cz/~pauspetr/html/japanese/kana/index.php" target="_blank">Procvičování Kany</a></li>
+                <li><a class="pr--odkaz" href="https://www.gyford.com/japanese/" target="_blank">Procvičování kany #02</a></li>
+                <li><a class="pr--odkaz" href="https://play.google.com/store/apps/details?id=com.myapps.hiragana" target="_blank">Hiragana - android</a></li>
+                <li><a class="pr--odkaz" href="https://play.google.com/store/apps/details?id=com.myapps.katakana" target="_blank">Katakana - android</a></li>
+                <li><a class="pr--odkaz" href="https://play.google.com/store/apps/details?id=com.fastbreakapps.kanadojo" target="_blank">Kana Dojo - android</a></li>
+                <li><a class="pr--odkaz" href="https://play.google.com/store/apps/details?id=fr.koridev.kanatown" target="_blank">Kana Town</a></li>
+                <li><a class="pr--odkaz" href="https://play.google.com/store/apps/details?id=com.japanactivator.android.japaneseaudiobook" target="_blank">JA Audiobook</a></li>
+                <li><a class="pr--odkaz" href="https://play.google.com/store/apps/details?id=jp.go.jnto.jota" target="_blank">Japan Official Travel App</a></li>
+            </ul>
+            <!-- ======================== -->
+        </div>
+        <!-- =================================================================================================== -->
+    </div>
+    <!-- Pravá strana -->
+    <div class="con-right print-disable">
+        <div class="pr--wrap">
+            <h2 class="pr--title-h2 jpn-font2">Ostatní</h2>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fjapanactivator1%2F&tabs=timeline&width=277&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=380593212679640" width="277" height="500" style="border:none;overflow:hidden" class="wd-100per" allow="encrypted-media"></iframe>
+        </div>
+        <div class="pr--wrap">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvisitjapaninternational%2F%3Fref%3Dbr_rs&tabs=timeline&width=277&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=380593212679640" width="277" height="500" style="border:none;overflow:hidden" allow="encrypted-media"></iframe>
+        </div>
+    </div>
+
+</div>
+<!-- ============= CONTAINER - END ============== -->
+<footer>
+    <div class="credit">&copy; 2018 <a href="http://www.mandinecdominik.cz">Mandinec Dominik</a> - Studentský zápočtový projekt #FIM UHK</div>
+</footer>
+</body>
+</html>

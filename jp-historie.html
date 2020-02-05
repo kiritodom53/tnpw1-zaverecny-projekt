@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Japonsko - historie</title>
+    <meta name='robots' content='all'>
+    <link rel="icon" sizes="16x16 32x32 64x64" href="_img/favicon/favicon.ico">
+    <!-- ======================= CCS - START ========================= -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/prispevky.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="css/non-js-menu.css">
+    <!-- ======================== CCS - END ========================== -->
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+<body>
+<header>
+    <h1 class="page-title">&nbsp;Historie Japonska</h1>
+</header>
+<!-- Start Menu -->
+<div class="menu-mobile">
+    <div class="item"><span class="menu-item noselect"><i class="fas fa-bars"></i> Menu</span></div>
+</div>
+<nav id="nav">
+    <!-- JS menu -->
+    <div class="_menu" id="menu1">
+        <!-- TODO: předělat responzivitu menu na pc -->
+        <div class="wrap">
+            <div class="pre-item" id="menu00">
+                <div class="item"><a href="index.html">Domů</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <!-- TODO: Menu udělat jako cisloMenu-nazev např.: 00-uvod, 03-svatky -->
+            <div class="pre-item active-menu" id="menu01">
+                <div class="item"><span class="menu-item noselect">Japonsko</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jp-uvod.html">Úvod</a></div>
+                    <div class="sub-item"><a href="jp-historie.html">Kousek historie</a></div>
+                    <div class="sub-item disable"><a href="#">Šintoismus</a></div>
+                    <div class="sub-item disable"><a href="#">Geografie</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu02">
+                <div class="item"><span class="menu-item noselect">Japonština</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jpn-o_jazyku.html">O Jazyku</a></div>
+                    <div class="sub-item"><a href="jpn-zakladni_fraze.html">Základní fráze</a></div>
+                    <div class="sub-item"><a href="jpn-pomucky.html">Výuka - pomůcky</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu03">
+                <div class="item"><a href="galerie.html">Galerie</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu04">
+                <!-- TODO: provizorní menu na sub-menu, předělat -->
+                <div class="item"><span class="menu-item noselect">Cestování</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a></div>
+                    <div class="sub-item disable"><a href="#">Tokyo</a></div>
+                    <div class="sub-item"><a href="cestovani-kyoto.html">Kyoto</a></div>
+                    <div class="sub-item"><a href="cestovani-svatky.html">Svátky</a></div>
+                    <div class="sub-item"><a href="cestovani-akihabara.html">Akihabara</a></div>
+                    <div class="sub-item disable"><a href="#">Peníze</a></div>
+                    <div class="sub-item disable"><a href="#">Ostatní informace</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu05">
+                <div class="item"><span class="menu-item noselect">Pop-Kultura</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="pop_kultura-manga.html">Anime/Manga</a></div>
+                    <div class="sub-item"><a href="pop_kultura-festivaly.html">Festivaly</a></div>
+                    <div class="sub-item disable"><a href="#">Karaoke</a></div>
+                    <div class="sub-item disable"><a href="#">Cosplay</a></div>
+                    <div class="sub-item disable"><a href="#">Idolové</a></div>
+                    <div class="sub-item disable"><a href="#">Purikura</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu06">
+                <div class="item"><a href="dokumentace.html">Dokumentace</a></div>
+            </div>
+            <!-- ================================================================= -->
+        </div>
+    </div>
+</nav>
+<nav id="nav2">
+    <!-- Hover menu -->
+    <div class="_menu menu2" id="menu2">
+        <ul class="ul-menu02 main-navigation">
+            <li class="li-menu02"><a href="index.html">Domů</a></li>
+            <!-- ======================================== -->
+            <li class="li-menu02 active-menu"><a href="#">Japonsko</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jp-uvod.html">Úvod</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jp-historie.html">Kousek historie</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonština</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jpn-o_jazyku.html">O Jazyku</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-zakladni_fraze.html">Základní fráze</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-pomucky.html">Výuka - pomůcky</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="galerie.html">Galerie</a>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Cestování</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a>
+                    </li>
+                    <li class="li-menu02 disable">
+                        <a href="#">Tokyo</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-kyoto.html">Kyoto</a>
+                    </li>
+                    <li class="li-menu02" style="display: block;">
+                        <a href="cestovani-svatky.html">Svátky</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-akihabara.html">Akihabara</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Pop-Kultura</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="pop_kultura-manga.html">Anime/Manga</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="pop_kultura-festivaly.html">Festivaly</a>
+                    </li>
+                </ul>
+            </li><!-- ======================================== -->
+            <li class="li-menu02"><a href="dokumentace.html">Dokumentace</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Konec Menu -->
+<!-- ============ CONTAINER =================== -->
+<div id="container">
+    <img class="img-title" src="_img/flag-history.jpg" alt="flag">
+    <!-- ======================================================================================================================== -->
+    <div class="pr--wrap">
+        <h2 class="pr--title-h2">Stručná historie Japonska</h2>
+        <article>
+            <figure class="float-left pr--fg-img">
+                <div class="pr--wrap-center">
+                    <img class="border-1p" src="_img/jp-flag.png" alt="Japonská vlajka" width="300">
+                </div>
+                <figcaption>Japonská vlajka</figcaption>
+            </figure>
+            <h3>Základní informace o Japonsku</h3>
+            <p class="pr--text">
+                Japonsko má dlouhou a bouřlivou historii, kterou Japonci uznávají dodnes, a inspirují se v ní i nadále, protože jsou na svoji kulturu právem pyšní. První prehistorické osídlení japonských ostrovů se datuje zhruba před 30.000 lety. Japonsko se dlouhou dobu inspirovalo vyspělou kulturou v Číně a můžeme zde pozorovat spousty prvků z pevniny převzatých, ale adaptovaných pro vlastní potřebu Japonska. Díky obchodním a politickým vztahům s Čínou se Japonsko rychle rozvíjelo.
+            </p>
+            <p class="pr--text">
+                V 6. století přichází do Japonska buddhismus a výrazně mění celou společnost. Začíná období Nara, je založeno město Kjóto. Období Heian, koncem 8. století, odstartovalo velký kulturní a umělecký rozvoj. V tomto období moc císařského dvora postupně upadá, až se zcela rozpadne a odstartuje tak válku jednotlivých panovnických rodů o moc. V období Kamakura je ostanoven šogunát, systém vojenské vlády. V letech 1274–1281 došlo ke dvěma pokusům o mongolskou invazi do Japonska. Oba skončily neúspěchem, díky dílu přírody, tajfunu ale i obraně samurajů.
+            </p>
+            <p class="pr--text">
+                Následovaly další politické nepokoje, které vyvrcholily ve velké období válčících států – Sengoku jidaj, které trvalo přes sto let a skončilo obrovskou bitvou u Sekigahary, po níž Tokugawa Ieyasu založil poslední šogunát a začalo tak slavné období Edo. To trvalo až do roku 1868, kdy bylo Japonsko donuceno otevřít své přístavy Američanům. V té době to byla neuvěřitelně zaostalá země, neboť za téměř 300 let, díky míru a uzavření veškerého obchodu i politické interakce s okolními státy, neprošlo žádným vývojem.
+            </p>
+            <p class="pr--text">
+                Konec 19. století je tedy pro Japonsko obdobím velkých změn a rychlé modernizace, která vyvrcholila několika válkami a ozbrojenými konflikty jak v Asii, tak ve světovém měřítku. Po prohrané druhé světové válce se Japonsko dlouhou dobu dávalo dohromady. Nicméně díky národní nátuře a finanční pomoci USA a vítězných mocností se rychle obnovil průmysl a infrastruktura. Dnes je Japonsko technologicky jedním z nejvyspělejších států na světě, který si přesto uchoval své bohaté tradice.
+            </p>
+        </article>
+        <article>
+            <h3>Historická období</h3>
+            <p class="pr--text">
+                Historie Japonska se dělí na jednotlivá dílčí období:
+            </p>
+            <ul>
+                <li>Džómon (<span class="jpn-font">縄文時代</span> 10 000 – 300 př. n. l.)</li>
+                <li>Jajoi (<span class="jpn-font">弥生時代</span> 300 př. n. l. – 710 n. l.)</li>
+                <li><strong>Nara (<span class="jpn-font">奈良時代</span> 710–794)</strong></li>
+                <li>Heian (<span class="jpn-font">平安時代</span> 794–1185)</li>
+                <li>Kamakura (<span class="jpn-font">鎌倉時代</span> 1185–1333)</li>
+                <li>Muromači (<span class="jpn-font">室町時代</span> 1333–1568)</li>
+                <li>Azuči-Momojama (<span class="jpn-font">安土桃山時代</span> 1568–1600)</li>
+                <li><strong>Tokugawa (nebo také Edo) (<span class="jpn-font">江戸時代</span> 1600–1868)</strong></li>
+                <li><strong>Meidži (<span class="jpn-font">明治</span> 1868–1912)</strong></li>
+                <li>Taišó (<span class="jpn-font">大正</span> 1912–1926)</li>
+                <li>Šówa (<span class="jpn-font">昭和</span> 1926–1989)</li>
+                <li>Heisei (<span class="jpn-font">平成</span> od 1989)</li>
+            </ul>
+        </article>
+    </div>
+</div>
+<!-- ============= CONTAINER - END ============== -->
+<footer>
+    <div class="credit">&copy; 2018 <a href="http://www.mandinecdominik.cz">Mandinec Dominik</a> - Studentský zápočtový projekt #FIM UHK</div>
+</footer>
+</body>
+</html>

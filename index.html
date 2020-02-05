@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Japonská kultura</title>
+    <meta name='robots' content='all'>
+    <link rel="icon" sizes="16x16 32x32 64x64" href="_img/favicon/favicon.ico">
+    <!-- ======================= CCS - START ========================= -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/prispevky.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/non-js-menu.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <!-- ======================== CCS - END ========================== -->
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- JQuery import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JavaScript -->
+    <script src="js/menu.js"></script>
+</head>
+<body>
+<!-- Header -->
+<header>
+    <h1 class="page-title">&nbsp;O projektu</h1>
+</header>
+<!-- Start Menu -->
+<!-- TODO: předělat menu na kliknutí na buňku, né odkaz -->
+<!-- TODO: Udělat "active-menu" -->
+<div class="menu-mobile">
+    <div class="item"><span class="menu-item noselect"><i class="fas fa-bars"></i> Menu</span></div>
+</div>
+<nav id="nav">
+    <!-- JS menu -->
+    <div class="_menu" id="menu1">
+        <!-- TODO: předělat responzivitu menu na pc -->
+        <div class="wrap">
+            <div class="pre-item active-menu" id="menu00">
+                <div class="item"><a href="index.html">Domů</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <!-- TODO: Menu udělat jako cisloMenu-nazev např.: 00-uvod, 03-svatky -->
+            <div class="pre-item" id="menu01">
+                <div class="item"><span class="menu-item noselect">Japonsko</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jp-uvod.html">Úvod</a></div>
+                    <div class="sub-item"><a href="jp-historie.html">Kousek historie</a></div>
+                    <div class="sub-item disable"><a href="#">Šintoismus</a></div>
+                    <div class="sub-item disable"><a href="#">Geografie</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu02">
+                <div class="item"><span class="menu-item noselect">Japonština</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jpn-o_jazyku.html">O Jazyku</a></div>
+                    <div class="sub-item"><a href="jpn-zakladni_fraze.html">Základní fráze</a></div>
+                    <div class="sub-item"><a href="jpn-pomucky.html">Výuka - pomůcky</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu03">
+                <div class="item"><a href="galerie.html">Galerie</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu04">
+                <!-- TODO: provizorní menu na sub-menu, předělat -->
+                <div class="item"><span class="menu-item noselect">Cestování</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a></div>
+                    <div class="sub-item disable"><a href="#">Tokyo</a></div>
+                    <div class="sub-item"><a href="cestovani-kyoto.html">Kyoto</a></div>
+                    <div class="sub-item"><a href="cestovani-svatky.html">Svátky</a></div>
+                    <div class="sub-item"><a href="cestovani-akihabara.html">Akihabara</a></div>
+                    <div class="sub-item disable"><a href="#">Peníze</a></div>
+                    <div class="sub-item disable"><a href="#">Ostatní informace</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu05">
+                <div class="item"><span class="menu-item noselect">Pop-Kultura</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="pop_kultura-manga.html">Anime/Manga</a></div>
+                    <div class="sub-item"><a href="pop_kultura-festivaly.html">Festivaly</a></div>
+                    <div class="sub-item disable"><a href="#">Karaoke</a></div>
+                    <div class="sub-item disable"><a href="#">Cosplay</a></div>
+                    <div class="sub-item disable"><a href="#">Idolové</a></div>
+                    <div class="sub-item disable"><a href="#">Purikura</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu06">
+                <div class="item"><a href="dokumentace.html">Dokumentace</a></div>
+            </div>
+            <!-- ================================================================= -->
+        </div>
+    </div>
+</nav>
+<nav id="nav2">
+    <!-- Hover menu -->
+    <div class="_menu menu2" id="menu2">
+        <ul class="ul-menu02 main-navigation">
+            <li class="li-menu02 active-menu"><a href="index.html">Domů</a></li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonsko</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jp-uvod.html">Úvod</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jp-historie.html">Kousek historie</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonština</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jpn-o_jazyku.html">O Jazyku</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-zakladni_fraze.html">Základní fráze</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-pomucky.html">Výuka - pomůcky</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="galerie.html">Galerie</a>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Cestování</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a>
+                    </li>
+                    <li class="li-menu02 disable">
+                        <a href="#">Tokyo</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-kyoto.html">Kyoto</a>
+                    </li>
+                    <li class="li-menu02" style="display: block;">
+                        <a href="cestovani-svatky.html">Svátky</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-akihabara.html">Akihabara</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Pop-Kultura</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="pop_kultura-manga.html">Anime/Manga</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="pop_kultura-festivaly.html">Festivaly</a>
+                    </li>
+                </ul>
+            </li><!-- ======================================== -->
+            <li class="li-menu02"><a href="dokumentace.html">Dokumentace</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Konec Menu -->
+<!-- ================ CONTAINER =================== -->
+<div id="container">
+
+    <!-- Levá strana -->
+    <div class="con-left">
+        <!-- ====================================================================================================== -->
+        <!-- Myšlenka projektu -->
+        <div class="pr--wrap">
+            <h2 class="pr--title-h2">Projekt</h2>
+            <article>
+                <h3>Myšlenka projektu</h3>
+                <p class="pr--text">
+                    Projekt vznikl se záminkou rozvíjet asijskou (konkrétně japonskou) kulturu v České republice. Japonská kultura je sice v Česku celkem známá, ale pořád je tu dost lidí, co o ní ví málo, domnívají se, že ví a přitom to co ví je špatně, či neví vůbec nic. Chtěl bych zde ukázat, že japonská kultura není jenom manga a anime, japonská pop-kultura či tzv. "země úchyláků", ale i to, že je to země plná kulturního a přírodního dědictví, úžasné historie, a se zcela jinou exotickou kulturou.
+                </p>
+                <p class="pr--text">
+                    Japonsko, v porovnání s námi (evropskou zemí) se liší opravdu ve velkém. Kulturní a společenské rozdíly jsou zcela patrné. Ať už ve společenském chování, jazycích, studiu, ba dokonce i v životním stylu.
+                </p>
+                <!-- ======================== -->
+            </article>
+            <article>
+                <h4>Dodatek</h4>
+                <p class="pr--text">
+                    Veškerý text a informace na tomto portálu jsou zcela mé osobní a nastudované informace (založené na dostupných informacích). Nezaručuji, že veškeré informace jsou 100% pravdivé či spolehlivé. Tímto nemyslím, že veškeré informace jsou nepravdivé, ale pouze to, že jsem jen člověk a můžu se zmýlit. Informace aktualizuji a při nalezení nesrovnalostí mě můžete kontaktovat.
+                </p>
+            </article>
+        </div>
+        <!-- ====================================================================================================== -->
+        <!-- Nový nadpis příspěvku -->
+        <!-- Text o autorovy -->
+        <div class="pr--wrap breakp">
+            <h2 class="pr--title-h2">Autor</h2>
+            <article>
+                <figure class="float-left pr--fg-img">
+                    <div class="pr--wrap-center">
+                        <img class="border-1p" src="_img/dom53.png" alt="Japonská vlajka" width="300">
+                    </div>
+                    <figcaption>Radši bez komentáře ...;)</figcaption>
+                </figure>
+                <h3>Kdo jsem</h3>
+                <p class="pr--text">
+                    Jmenuji se Dominik Mandinec <span class="jpn-font2">「ドミニク」</span>.
+                    <br>Je mi 20 let a bydlím ve Středočeském kraji, poblíž Prahy.
+                    <br>Jsem student prvního ročníku aplikované informatiky na Univerzitě v Hradci Králové #FIMUHK.
+                </p>
+            </article>
+            <!-- ======================== -->
+            <article>
+                <h3>Zájmy</h3>
+                <p class="pr--text">
+                    Mezi mé zájmy patří japonská kultura, programování, rocková hudba, tvorba webových stránek, filmy, fotografování a nekonečné debaty s mým kamarádem, že ještě nepotřebuje spát a můžeme zkouknout další epizodu zrovna sledovaného anime.
+                    <br>Dá se říct, že z japonské kultury mám největší zálibu v japonštině, kterou jsem také předtím rok studoval na jazykové škole jako pomaturitní studium. Nechybí ale ani japonská kultura, anime, historie či japonský komiks "manga".
+                </p>
+                <p class="pr--text">
+                    <cite>
+                        „Život je něco, co nemůže být prožito dvakrát. I tenhle zbytečný fakt někdy skončí. A během přemýšlení nad tím oním dnem, budu jistě litovat jeho konce...“
+                    </cite>
+                </p>
+            </article>
+            <!-- ======================== -->
+            <article>
+                <h3>Jak jsem se dostal k Japonštině?</h3>
+                <p class="pr--text">
+                    K japonštině jsem se dostal hlavně přes anime, jako většina lidí. Můžu říct, že bych se o japonštinu vůbec nezajímal, kdyby nebylo anime, do kterého mě dostal můj kamarád. Anime jsem neměl moc rád, ale moc jsem jich neviděl, tak jsem si řekl, že ho s ním zkouknu a najednou jsem si uvědomil, že jsem o něm měl celou dobu špatné mínění. Zhlédl jsem jedno, druhé, další a další a postupně jsem si oblíbil nejen anime, ale i japonštinu. Jednou, když jsem hledal zrovna nějaké anime, narazil jsem na portál, kde dokonce byly i lekce japonštiny pro samouky, a tak jsem to vyzkoušel a naučil se pár základních frází. Na základní škole se dokonce moje spolužačka japonštinu učila, tak jsem si ji zeptal na pár rad. Doporučila mi jednu učebnici, kterou jsem si následně i pořídil.
+                </p>
+            </article>
+            <!-- ======================== -->
+        </div>
+        <!-- ===================================================================================================== -->
+    </div>
+    <!-- TODO: dodělat article -->
+    <!-- Pravá strana -->
+    <div class="con-right">
+        <div class="pr--wrap">
+            <h2 class="pr--title-h2">Kontakty</h2>
+            <p class="pr--text">
+                Dále mě můžete kontaktovat zde:
+            </p>
+            <table>
+                <tbody>
+                <tr>
+                    <td class="txt-center"><i class="fab fa-facebook-f"></i></td>
+                    <td><a href="#" target="_blank">Facebook</a></td>
+                </tr>
+                <tr>
+                    <td class="txt-center"><i class="fab fa-instagram"></i></td>
+                    <td><a href="#" target="_blank">Instagram</a></td>
+                </tr>
+                <tr>
+                    <td class="txt-center"><i class="fas fa-envelope"></i></td>
+                    <td>dm@mandinecdominik.cz</td>
+                </tr>
+                <tr>
+                    <td class="txt-center"><i class="fab fa-skype"></i></td>
+                    <td><a href="#" target="_blank">Skype</a></td>
+                </tr>
+                <tr>
+                    <td class="txt-center"><i class="fas fa-database"></i></td>
+                    <td><a href="#" target="_blank">MyAnimeList</a></td>
+                </tr>
+                <tr>
+                    <td class="txt-center"><i class="fab fa-steam"></i></td>
+                    <td><a href="https://steamcommunity.com/id/dom53/" target="_blank">Steam</a></td>
+                </tr>
+                <tr>
+                    <td class="txt-center"><i class="fas fa-film"></i></td>
+                    <td><a href="#" target="_blank">ČSFD</a></td>
+                </tr>
+                </tbody>
+            </table>
+            <!-- Pouze formulář -->
+            <form>
+                <input class="input-text" type="text" name="name" autocomplete="off" placeholder="Jméno" required><br><br>
+                <input class="input-text" type="email" autocomplete="off" name="email" placeholder="Email" required><br><br>
+                <textarea class="input-text" rows="4" autocomplete="off" placeholder="Zpráva" required></textarea><br><br>
+                <input type="submit" value="Odeslat">
+            </form>
+            <!-- Představení v JPN -->
+        </div>
+        <div class="pr--wrap">
+            <h2 class="pr--title-h2 jpn-font2">著者</h2>
+            <article>
+                <h3 class="jpn-font2">私は誰ですか</h3>
+                <p class="pr--text jpn-font2">
+                    初めまして。私の名前は「ドミニク　マンディネク」です。<br>チェコ人です。「カルブ ドブル」(Králův Dvůr) からきました。私は20歳です。私は学生です。学校は「UHK」です。<br>フレーデック・クラローブ「Hradec Králové」に住んでいます。<br>一年間日本語を勉強しています。どうぞよろしくお願いいたします。
+                </p>
+            </article>
+        </div>
+    </div>
+</div>
+<!-- ============= CONTAINER - END ============== -->
+<footer>
+    <div class="credit">&copy; 2018 <a href="http://www.mandinecdominik.cz">Mandinec Dominik</a> - Studentský zápočtový projekt #FIM UHK</div>
+</footer>
+</body>
+</html>

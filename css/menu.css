@@ -1,0 +1,112 @@
+/* neoznačování textu */
+.noselect {
+    -webkit-touch-callout: none;    /* iOS Safari */
+    -webkit-user-select: none;      /* Safari */
+    -moz-user-select: none;         /* Firefox */
+    -ms-user-select: none;          /* Internet Explorer/Edge */
+    user-select: none;              /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+}
+
+#nav {
+    font-size: 28px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 0px;
+    width: 100%;
+    color: #FFF;
+    background-color: #4e1026;
+    margin: 0px auto;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+._menu{
+    font-size: 24px;
+    text-align: center;
+}
+
+.menu-mobile{
+    display: none!important;
+    text-align: center;
+    background-color: #4e1026;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 24px;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+    /*visibility: hidden;*/
+    /*border: 1px solid #6B243D;*/
+}
+
+div.pre-item{
+    display: inline-block;
+}
+.item{
+    /*width: 100px;*/
+    display: inline-block;
+    padding: 10px;
+}
+.sub-item{
+    /*position: absolute;*/
+    background-color: #6B243D;
+    display: none;
+    border: 1px solid #4e1026;
+    border-collapse: separate;
+    padding: 10px;
+}
+.menu-item{
+    cursor: pointer;
+}
+.menu-pc-abs{
+    position: absolute;
+}
+
+
+@media only screen and (max-width:480px) {
+    /* Mobil na výšku */
+    #nav{
+        position: static;
+    }
+    .menu-mobile{
+        display: inline-block!important;
+        /*border: 1px solid #6B243D;*/
+    }
+    .wrap{
+        display: block;
+    }
+    .pre-item{
+        display: block!important;
+    }
+    .menu-pc-abs{
+        position: static;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    /* Mobil na šířku */
+    #nav{
+        position: static;
+    }
+    .menu-mobile{
+        display: inline-block!important;
+        /*border: 1px solid #6B243D;*/
+    }
+    .wrap{
+        display: block;
+    }
+    .pre-item{
+        display: block!important;
+    }
+    .menu-pc-abs{
+        position: static;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+    body{
+        width: 100%;
+    }
+}

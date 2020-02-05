@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime a Manga</title>
+    <meta name='robots' content='all'>
+    <link rel="icon" sizes="16x16 32x32 64x64" href="_img/favicon/favicon.ico">
+    <!-- ======================= CCS - START ========================= -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/prispevky.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <link href="lightbox2-master/dist/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/non-js-menu.css">
+    <!-- ======================== CCS - END ========================== -->
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+<body>
+<header>
+    <h1 class="page-title">&nbsp;Anime a Manga</h1>
+</header>
+<!-- Start Menu -->
+<div class="menu-mobile">
+    <div class="item"><span class="menu-item noselect"><i class="fas fa-bars"></i> Menu</span></div>
+</div>
+<nav id="nav">
+    <!-- JS menu -->
+    <div class="_menu" id="menu1">
+        <div class="wrap">
+            <div class="pre-item" id="menu00">
+                <div class="item"><a href="index.html">Domů</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <!-- TODO: Menu udělat jako cisloMenu-nazev např.: 00-uvod, 03-svatky -->
+            <div class="pre-item" id="menu01">
+                <div class="item"><span class="menu-item noselect">Japonsko</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jp-uvod.html">Úvod</a></div>
+                    <div class="sub-item"><a href="jp-historie.html">Kousek historie</a></div>
+                    <div class="sub-item disable"><a href="#">Šintoismus</a></div>
+                    <div class="sub-item disable"><a href="#">Geografie</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu02">
+                <div class="item"><span class="menu-item noselect">Japonština</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jpn-o_jazyku.html">O Jazyku</a></div>
+                    <div class="sub-item"><a href="jpn-zakladni_fraze.html">Základní fráze</a></div>
+                    <div class="sub-item"><a href="jpn-pomucky.html">Výuka - pomůcky</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu03">
+                <div class="item"><a href="galerie.html">Galerie</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu04">
+                <!-- TODO: provizorní menu na sub-menu, předělat -->
+                <div class="item"><span class="menu-item noselect">Cestování</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a></div>
+                    <div class="sub-item disable"><a href="#">Tokyo</a></div>
+                    <div class="sub-item"><a href="cestovani-kyoto.html">Kyoto</a></div>
+                    <div class="sub-item"><a href="cestovani-svatky.html">Svátky</a></div>
+                    <div class="sub-item"><a href="cestovani-akihabara.html">Akihabara</a></div>
+                    <div class="sub-item disable"><a href="#">Peníze</a></div>
+                    <div class="sub-item disable"><a href="#">Ostatní informace</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item active-menu" id="menu05">
+                <div class="item"><span class="menu-item noselect">Pop-Kultura</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="pop_kultura-manga.html">Anime/Manga</a></div>
+                    <div class="sub-item"><a href="pop_kultura-festivaly.html">Festivaly</a></div>
+                    <div class="sub-item disable"><a href="#">Karaoke</a></div>
+                    <div class="sub-item disable"><a href="#">Cosplay</a></div>
+                    <div class="sub-item disable"><a href="#">Idolové</a></div>
+                    <div class="sub-item disable"><a href="#">Purikura</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu06">
+                <div class="item"><a href="dokumentace.html">Dokumentace</a></div>
+            </div>
+            <!-- ================================================================= -->
+        </div>
+    </div>
+</nav>
+<nav id="nav2">
+    <!-- Hover menu -->
+    <div class="_menu menu2" id="menu2">
+        <ul class="ul-menu02 main-navigation">
+            <li class="li-menu02"><a href="index.html">Domů</a></li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonsko</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jp-uvod.html">Úvod</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jp-historie.html">Kousek historie</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonština</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jpn-o_jazyku.html">O Jazyku</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-zakladni_fraze.html">Základní fráze</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-pomucky.html">Výuka - pomůcky</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="galerie.html">Galerie</a>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Cestování</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a>
+                    </li>
+                    <li class="li-menu02 disable">
+                        <a href="#">Tokyo</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-kyoto.html">Kyoto</a>
+                    </li>
+                    <li class="li-menu02" style="display: block;">
+                        <a href="cestovani-svatky.html">Svátky</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-akihabara.html">Akihabara</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02 active-menu"><a href="#">Pop-Kultura</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="pop_kultura-manga.html">Anime/Manga</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="pop_kultura-festivaly.html">Festivaly</a>
+                    </li>
+                </ul>
+            </li><!-- ======================================== -->
+            <li class="li-menu02"><a href="dokumentace.html">Dokumentace</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Konec Menu -->
+<!-- TODO: Anime slovník pojmů -->
+<!-- ============ CONTAINER =================== -->
+<div id="container">
+    <!-- ======================================================================================================================== -->
+<!-- TODO: předělat break bez <br> -->
+        <div class="con-right">
+            <div class="pr--wrap">
+                <h2 class="pr--title-h2">Anime/Manga směry</h2>
+                    <ol class="anime-zanr">
+                        <li>
+                            <span class="bold">Šónen</span>
+                            <ol class="visible">
+                                <li>Česky: <em>chlapec</em>, žánr zaměřen na mladší ročníky, většinou akční anime/manga.
+                                    .</li>
+                                <li>Např.: Naruto, One Piece, Bleach</li>
+                            </ol>
+                        </li>
+                <!-- TODO: udělat break -->
+                        <li>
+                            <span class="bold">Šódžo</span>
+                            <ol class="visible">
+                                <li>Česky: <em>holčička</em>, žánr určený pro dívky, většinou romantické
+                                    anime/manga.</li>
+                                <li>Např.: Versailles no Bara, Candy Candy</li>
+                            </ol>
+                        </li>
+                <!-- TODO: udělat break -->
+                        <li>
+                            <span class="bold">Mahó šódžo</span>
+                            <ol class="visible">
+                                <li>Žánr spadající do kategorie Šódžo. Jeho náplní jsou příběhy o magicky nadaných
+                                    dívkách.</li>
+                                <li>Bišódžo senši Sailor Moon, Mahó šódžo Madoka Magica</li>
+                            </ol>
+                        </li>
+                <!-- TODO: udělat break -->
+                        <li>
+                            <span class="bold">Mahó šónen</span>
+                            <ol>
+                                <li>Mužský ekvivalent mahó šódžo.</li>
+                                <li>Ao no Excorsist, D. N. Angel</li>
+                            </ol>
+                        </li>
+                <!-- TODO: udělat break -->
+                        <li>
+                            <span class="bold">Džosei</span>
+                            <ol>
+                                <li>Kategorie zaměřená po mladé ženy.</li>
+                                <li>Nana, Paradise Kiss</li>
+                            </ol>
+                        </li>
+                <!-- TODO: udělat break -->
+                        <li>
+                            <span class="bold">Ečci</span>
+                            <ol>
+                                <li>Kategorie obsahují lehký sexuální humor a fanservis.</li>
+                                <li>To LOVE-Ru, No Game No Life, Kill la Kill, High School DxD</li>
+                            </ol>
+                        </li>
+                <!-- TODO: udělat break -->
+                        <li>
+                            <span class="bold">Hentai</span>
+                            <ol>
+                                <li>Hentai je označení pro anime s erotickou nebo pornografickou tématikou.</li>
+                                <li>Oni čiči, Cream Lemon, Bible Black</li>
+                            </ol>
+                        </li>
+                <!-- TODO: udělat break -->
+                        <li>
+                            <span class="bold">Loli</span>
+                            <ol>
+                                <li>Označení pro anime, kde převážně vystupují dívky, které nejsou zletilé (tj.
+                                    nedosáhli věku k sexuální aktivitě).</li>
+                                <li>Gochuumon wa Usagi desu ka, Papa no Iukoto wo Kikinasai!, Ro-Kyu-Bu!</li>
+                            </ol>
+                        </li>
+                <!-- TODO: udělat break -->
+                        <li>
+                            <span class="bold">Moe</span>
+                            <ol>
+                                <li>Obsahuje osoby, které vypadají mladší než je jejich skutečný věk, nebo jsou
+                                    extrémně roztomilé</li>
+                                <li>Akazukin čača, Mahó šódžo Lyrical Nanoha</li>
+                            </ol>
+                        </li>
+                <!-- TODO: udělat break -->
+                        <li>
+                            <span class="bold">Mecha</span>
+                            <ol>
+                                <li>Anime obsahující obrovské roboty nebo robotické obleky.</li>
+                                <li>IS: Infinite Stratos, Neon Genesis Evangelion</li>
+                            </ol>
+                        </li>
+                    </ol>
+                <h2 class="pr--title-h2">Slovník pojmů</h2>
+                <ul class="anime-zanr">
+                    <li>
+                        <span class="bold">Anime</span>
+                        <ol>
+                            <li>Japonské animované filmy a seriály</li>
+                        </ol>
+                    </li>
+                    <!-- TODO: udělat break -->
+                    <li>
+                        <span class="bold">Manga</span>
+                        <ol>
+                            <li>Kreslený příběh, Japonský komiks</li>
+                        </ol>
+                    </li>
+                    <!-- TODO: udělat break -->
+                    <li>
+                        <span class="bold">Mangaka</span>
+                        <ol>
+                            <li>Autor mangy</li>
+                        </ol>
+                    </li>
+                    <!-- TODO: udělat break -->
+                    <li>
+                        <span class="bold">Cosplay</span>
+                        <ol>
+                            <li>kratka anglických slov costume a play odkazující k tomu, že se lidé převlékají do kostýmů, aby vypadali jako jejich oblíbená anime či manga postava</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="con-left">
+            <div class="pr--wrap">
+                <h2 class="pr--title-h2">Manga a Anime</h2>
+                <article>
+                    <h3>Manga</h3>
+                    <p class="pr--text">
+                        Mangu lze definovat jako japonský komiks. Od námi známými komiksy (americké, evropské) se podstatně liší, jak v příběhu, tak i v celkové kresbě apod. Japonské postavy mají svojí určitou „image“. Postavy mívají velké očí, miniaturní nos nebo např. divně tvarované vlasy, které v realitě těžko uvidíte. Velká změna je i rozhodně v příběhu, Zatímco v americkém komiksu zažijete pár kapitol, jak se například váš oblíbený charakter stane superhrdinou a pak chrání zákon, v manze to tak není. V manze prakticky žijete příběh s hrdinou. Čtete, jak začínal úplně na nule, co vše musel prožít, co všechno získal a ztratil a další jeho budoucí překážky co mu přichystal život. Dá se říct, že prakticky čtete něčí biografii (obrazně řečeno).
+                    </p>
+                    <p class="pr--text">
+                        Manga je většinou vydávána jako kniha ucelených příběhů v komiksovém provedením. Než se však manga stane populární, a takovou knihu dostanete, vychází po částech v různých časopisech (např. Jump). Existuje mnoho žánrů a kategorií, o které se manga zajímá. Dá se říct, že najdete mangu opravdu o čemkoliv. Ať už pro chlapce, dívky či dospělé, či historické, romantické, horory, futuristické, erotické ba i dokonce pornografické nebo příběhy popisující obyčejný život vysokoškoláka. Zkrátka každý si vybere. Z toho plyne, že manga (ani anime) není určené pouze pro děti ale i pro dospělé publikum. V české republice je hodně lidí, kteří věří, že manga i anime je věc zaměřená pouze pro děti.
+                    </p>
+                    <p class="pr--text">
+                        Za zmínku ještě stojí zmínit pojem "Novela". Jedná se prakticky o stejnou charakteristiku jako u mangy s výjimkou, že novela obsahuje pouze text bez ilustrací.
+                    </p>
+                </article>
+                <!-- ================================== -->
+                <article>
+                    <h3>Anime</h3>
+                    <p class="pr--text">
+                        Anime představuje japonské anime filmy a seriály. Většinou inspirováno úspěšnou mangou či novelou, která dostala animované zpracování. Jako u mangy anime má úplně stejnou charakteristiku s tím, že se jedná o animaci.
+                    </p>
+                </article>
+            </div>
+            <!-- Galerie ukázek -->
+            <div class="pr--wrap">
+                <h2 class="pr--title-h2">Galerie</h2>
+                <h3>Ukázka mangy</h3>
+                <div class="gallery-img gallery-manga">
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/manga/ecchi01.jpg" class="gal-im gal-manga" data-lightbox="manga"
+                       data-title="Ukázka
+                    ečci mangy #01">
+                        <img src="_img/pop-kultura/manga/ecchi01.jpg" alt="ecchi01">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/manga/ecchi02.jpg" class="gal-im gal-manga" data-lightbox="manga"
+                       data-title="Ukázka
+                    ečci mangy #02">
+                        <img src="_img/pop-kultura/manga/ecchi02.jpg" alt="ecchi02">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/manga/loli.jpg" class="gal-im gal-manga" data-lightbox="manga"
+                       data-title="Ukázka
+                    loli mangy">
+                        <img src="_img/pop-kultura/manga/loli.jpg" alt="loli">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/manga/mecha01.png" class="gal-im gal-manga" data-lightbox="manga"
+                       data-title="Ukázka
+                    mecha mangy #01">
+                        <img src="_img/pop-kultura/manga/mecha01.png" alt="mecha01">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/manga/mecha02.jpg" class="gal-im gal-manga" data-lightbox="manga"
+                       data-title="Ukázka
+                    mecha mangy #02">
+                        <img src="_img/pop-kultura/manga/mecha02.jpg" alt="mecha02">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/manga/op01.jpg" class="gal-im gal-manga" data-lightbox="manga"
+                       data-title="Ukázka
+                    šónen mangy (One Piece) #01">
+                        <img src="_img/pop-kultura/manga/op01.jpg" alt="op01">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/manga/op02.JPG" class="gal-im gal-manga" data-lightbox="manga"
+                       data-title="Ukázka
+                    šónen mangy (One Piece) #02">
+                        <img src="_img/pop-kultura/manga/op02.JPG" alt="op02">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/manga/op03.jpg" class="gal-im gal-manga" data-lightbox="manga"
+                       data-title="Ukázka
+                    šónen mangy (One Piece) #03">
+                        <img src="_img/pop-kultura/manga/op03.jpg" alt="op03">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/manga/Unlucky_Boy_Undead_Girl.jpg" class="gal-im gal-manga"
+                       data-lightbox="manga"
+                       data-title="Ukázka
+                    šódžo mangy #01">
+                        <img src="_img/pop-kultura/manga/Unlucky_Boy_Undead_Girl.jpg" alt="shojo01">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/manga/shojo.jpg" class="gal-im gal-manga" data-lightbox="manga"
+                       data-title="Ukázka
+                    šódžo mangy #02">
+                        <img src="_img/pop-kultura/manga/shojo.jpg" alt="shojo02">
+                    </a>
+                </div>
+                <!-- ======================================================================== -->
+                <h3>Ukázka Anime</h3>
+                <div class="gallery-img gallery-manga">
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/anime/ecci01.jpg" class="gal-im gal-manga" data-lightbox="anime"
+                       data-title="Ukázka
+                    ečci mangy (HighSchool DxD) #01">
+                        <img src="_img/pop-kultura/anime/ecci01.jpg" alt="ecchi01">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/anime/ecci02.jpg" class="gal-im gal-manga" data-lightbox="anime"
+                       data-title="Ukázka
+                    ečci mangy (No Game No Life) #02">
+                        <img src="_img/pop-kultura/anime/ecci02.jpg" alt="ecchi02">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/anime/loli01.jpg" class="gal-im gal-manga" data-lightbox="anime"
+                       data-title="Ukázka
+                    loli mangy (Gochuumon wa Usagi Desu ka) #01">
+                        <img src="_img/pop-kultura/anime/loli01.jpg" alt="loli">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/anime/loli02.jpg" class="gal-im gal-manga" data-lightbox="anime"
+                       data-title="Ukázka
+                    loli mangy (Usagi Drop) #02">
+                        <img src="_img/pop-kultura/anime/loli02.jpg" alt="loli02">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/anime/mecha01.png" class="gal-im gal-manga" data-lightbox="anime"
+                       data-title="Ukázka
+                    mecha anime #01">
+                        <img src="_img/pop-kultura/anime/mecha01.png" alt="mecha01">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/anime/mecha02.jpeg" class="gal-im gal-manga" data-lightbox="anime"
+                       data-title="Ukázka
+                    mecha anime #02">
+                        <img src="_img/pop-kultura/anime/mecha02.jpeg" alt="mecha02">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/anime/sonen01.jpg" class="gal-im gal-manga" data-lightbox="anime"
+                       data-title="Ukázka
+                    šónen mangy (Bleach) #01">
+                        <img src="_img/pop-kultura/anime/sonen01.jpg" alt="sonen01">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/anime/sonen02.png" class="gal-im gal-manga" data-lightbox="anime"
+                       data-title="Ukázka
+                    šónen anime (Narutoe) #02">
+                        <img src="_img/pop-kultura/anime/sonen02.png" alt="sonen02">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/anime/sportovni.jpg" class="gal-im gal-manga"
+                       data-lightbox="anime"
+                       data-title="Ukázka
+                    sportovního anime (Kuroko no Basuke) #01">
+                        <img src="_img/pop-kultura/anime/sportovni.jpg" alt="sport01">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/anime/sportovni02.jpg" class="gal-im gal-manga" data-lightbox="anime"
+                       data-title="Ukázka
+                    sportovního anime (Haikyuu) #02">
+                        <img src="_img/pop-kultura/anime/sportovni02.jpg" alt="sprot02">
+                    </a>
+                    <!-- =========================================================================================== -->
+                    <a href="_img/pop-kultura/anime/zavodni.jpg" class="gal-im gal-manga" data-lightbox="anime"
+                       data-title="Ukázka
+                    zábodního anime (Initial D)">
+                        <img src="_img/pop-kultura/anime/zavodni.jpg" alt="zavodni">
+                    </a>
+                </div>
+            </div>
+        </div>
+    <script src="lightbox2-master/dist/js/lightbox.min.js"></script>
+</div>
+<!-- ============= CONTAINER - END ============== -->
+<footer>
+    <div class="credit">&copy; 2018 <a href="http://www.mandinecdominik.cz">Mandinec Dominik</a> - Studentský zápočtový projekt #FIM UHK</div>
+</footer>
+</body>
+</html>

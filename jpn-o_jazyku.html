@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Japonština</title>
+    <meta name='robots' content='all'>
+    <link rel="icon" sizes="16x16 32x32 64x64" href="_img/favicon/favicon.ico">
+    <!-- ======================= CCS - START ========================= -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/prispevky.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="css/non-js-menu.css">
+    <!-- ======================== CCS - END ========================== -->
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+<body>
+<header>
+    <h1 class="page-title">&nbsp;Japonský jazyk</h1>
+</header>
+<!-- Start Menu -->
+<div class="menu-mobile">
+    <div class="item"><span class="menu-item noselect"><i class="fas fa-bars"></i> Menu</span></div>
+</div>
+<nav id="nav">
+    <!-- JS menu -->
+    <div class="_menu" id="menu1">
+        <!-- TODO: předělat responzivitu menu na pc -->
+        <div class="wrap">
+            <div class="pre-item" id="menu00">
+                <div class="item"><a href="index.html">Domů</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <!-- TODO: Menu udělat jako cisloMenu-nazev např.: 00-uvod, 03-svatky -->
+            <div class="pre-item" id="menu01">
+                <div class="item"><span class="menu-item noselect">Japonsko</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jp-uvod.html">Úvod</a></div>
+                    <div class="sub-item"><a href="jp-historie.html">Kousek historie</a></div>
+                    <div class="sub-item disable"><a href="#">Šintoismus</a></div>
+                    <div class="sub-item disable"><a href="#">Geografie</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item active-menu" id="menu02">
+                <div class="item"><span class="menu-item noselect">Japonština</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="jpn-o_jazyku.html">O Jazyku</a></div>
+                    <div class="sub-item"><a href="jpn-zakladni_fraze.html">Základní fráze</a></div>
+                    <div class="sub-item"><a href="jpn-pomucky.html">Výuka - pomůcky</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu03">
+                <div class="item"><a href="galerie.html">Galerie</a></div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu04">
+                <!-- TODO: provizorní menu na sub-menu, předělat -->
+                <div class="item"><span class="menu-item noselect">Cestování</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a></div>
+                    <div class="sub-item disable"><a href="#">Tokyo</a></div>
+                    <div class="sub-item"><a href="cestovani-kyoto.html">Kyoto</a></div>
+                    <div class="sub-item"><a href="cestovani-svatky.html">Svátky</a></div>
+                    <div class="sub-item"><a href="cestovani-akihabara.html">Akihabara</a></div>
+                    <div class="sub-item disable"><a href="#">Peníze</a></div>
+                    <div class="sub-item disable"><a href="#">Ostatní informace</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu05">
+                <div class="item"><span class="menu-item noselect">Pop-Kultura</span></div>
+                <div class="menu-pc-abs">
+                    <div class="sub-item"><a href="pop_kultura-manga.html">Anime/Manga</a></div>
+                    <div class="sub-item"><a href="pop_kultura-festivaly.html">Festivaly</a></div>
+                    <div class="sub-item disable"><a href="#">Karaoke</a></div>
+                    <div class="sub-item disable"><a href="#">Cosplay</a></div>
+                    <div class="sub-item disable"><a href="#">Idolové</a></div>
+                    <div class="sub-item disable"><a href="#">Purikura</a></div>
+                </div>
+            </div>
+            <!-- ================================================================= -->
+            <div class="pre-item" id="menu06">
+                <div class="item"><a href="dokumentace.html">Dokumentace</a></div>
+            </div>
+            <!-- ================================================================= -->
+        </div>
+    </div>
+</nav>
+<nav id="nav2">
+    <!-- Hover menu -->
+    <div class="_menu menu2" id="menu2">
+        <ul class="ul-menu02 main-navigation">
+            <li class="li-menu02"><a href="index.html">Domů</a></li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Japonsko</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jp-uvod.html">Úvod</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jp-historie.html">Kousek historie</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02 active-menu"><a href="#">Japonština</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="jpn-o_jazyku.html">O Jazyku</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-zakladni_fraze.html">Základní fráze</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="jpn-pomucky.html">Výuka - pomůcky</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="galerie.html">Galerie</a>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Cestování</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="cestovani-prvni_cesta_do_japonska.html">První cesta do Japonska</a>
+                    </li>
+                    <li class="li-menu02 disable">
+                        <a href="#">Tokyo</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-kyoto.html">Kyoto</a>
+                    </li>
+                    <li class="li-menu02" style="display: block;">
+                        <a href="cestovani-svatky.html">Svátky</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="cestovani-akihabara.html">Akihabara</a>
+                    </li>
+                </ul>
+            </li>
+            <!-- ======================================== -->
+            <li class="li-menu02"><a href="#">Pop-Kultura</a>
+                <ul class="ul-menu02">
+                    <li class="li-menu02">
+                        <a href="pop_kultura-manga.html">Anime/Manga</a>
+                    </li>
+                    <li class="li-menu02">
+                        <a href="pop_kultura-festivaly.html">Festivaly</a>
+                    </li>
+                </ul>
+            </li><!-- ======================================== -->
+            <li class="li-menu02"><a href="dokumentace.html">Dokumentace</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Konec Menu -->
+<!-- ============ CONTAINER =================== -->
+<div id="container">
+    <!-- TODO: dát úvodní obrázek před classu prispevek wrap -->
+    <!-- =============================================================== ================================================== -->
+    <img class="img-title h300" src="_img/nihongo.png" alt="Kyoto">
+    <div class="pr--wrap">
+        <h2 class="pr--title-h2">Úvod</h2>
+        <article>
+            <h3>Úvodní slovo</h3>
+            <p class="pr--text">
+                Japonský jazyk není podobný žádnému jinému jazyku na světě. Což úplně neplatí o písmu, které se zakládá ze slabičných abeced hirakany a katakany a složitých znaků kanji. Právě Kanji pochází z Číny, hodně znaků znamená to samé i v čínštině, ale jinak se vyslovují. Japonci mají mnohem méně znaků než Číňané, spoustu slov kombinují s hirakanou nebo cizí slova přepisují v katakaně. Je to hlavně kvůli odlišnosti ve výslovnosti. Japonština má mnoho zdvořilostních způsobů vyjadřování.
+            </p>
+        </article>
+    </div>
+    <!-- ================================================================================================================== -->
+    <div class="pr--wrap">
+        <h2 class="pr--title-h2">Abeceda</h2>
+        <article>
+            <h3>Styly psaní v Japonštině</h3>
+            <p class="pr--text">
+                K zápisu japonštiny se používá směs tří znakových systémů. Jsou to <strong>kandži</strong> (<span class="jpn-font">漢字</span>, <em>doslova „čínské znaky“</em>), <strong>hiragana</strong> (<span class="jpn-font">ひらがな</span>) a <strong>katakana</strong> (<span class="jpn-font">カタカナ</span>). Hiragana a katakana se též označují společným názvem kana. Kandži se používá k vyjádření kořenu slova, koncovky a partikule jsou doplněny hiraganou. Katakana se používá pro fonetický přepis cizích slov, nebo slov převzatých z jiných jazyků. Také se používá v případě, kdy je třeba nějakou část textu zvýraznit, podobně jako kurzíva, také nověji pro odborné taxonomické názvosloví.
+            </p>
+
+            <p class="pr--text">
+                Hiragana a katakana jsou slabičné abecedy, zatímco kandži je morfemografické písmo. Většinu znaků kandži je možné číst dvěma i více způsoby. Pokud je potřeba specifikovat výslovnost nějakého znaku, použije se hiragana. Kandži na druhou stranu umožňuje rozlišit význam u homonym, která jsou v japonštině velmi běžná.
+            </p>
+
+            <p class="pr--text">
+                Píše se bez mezer mezi slovy. Tradičně jsou znaky uspořádány do sloupců, ve sloupci se píše shora dolů, sloupce jsou řazeny zprava doleva. Japonské knihy tedy mají stránky řazené z českého pohledu „odzadu“. Alternativně je možné znaky psát do řádku zleva doprava, řádky jsou řazené shora dolů (jako v češtině).
+            </p>
+        </article>
+        <div class="in-bl mbl-center">
+            <h3>hiragana</h3>
+
+            <p class="pr--text">
+                základní abeceda
+            </p>
+            <table class="txt-center hiragana print-friendly">
+                <tbody>
+                <tr>
+                    <td>n</td>
+                    <td>w-</td>
+                    <td>r-</td>
+                    <td>y-</td>
+                    <td>m-</td>
+                    <td>h-</td>
+                    <td>n-</td>
+                    <td>t-</td>
+                    <td>s-</td>
+                    <td>k-</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>ん<br>n</td>
+                    <td>わ<br>wa</td>
+                    <td>ら<br>ra</td>
+                    <td>や<br>ya</td>
+                    <td>ま<br>ma</td>
+                    <td>は<br>ha</td>
+                    <td>な<br>na</td>
+                    <td>た<br>ta</td>
+                    <td>さ<br>sa</td>
+                    <td>か<br>ka</td>
+                    <td>あ<br>a</td>
+                    <td>-a</td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td>ゐ<br>wi</td>
+                    <td>り<br>ri</td>
+                    <td><br></td>
+                    <td>み<br>mi</td>
+                    <td>ひ<br>hi</td>
+                    <td>に<br>ni</td>
+                    <td>ち<br>chi</td>
+                    <td>し<br>shi</td>
+                    <td>き<br>ki</td>
+                    <td>い<br>i</td>
+                    <td>-i</td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td><br></td>
+                    <td>る<br>ru</td>
+                    <td>ゆ<br>yu</td>
+                    <td>む<br>mu</td>
+                    <td>ふ<br>fu</td>
+                    <td>ぬ<br>nu</td>
+                    <td>つ<br>tsu</td>
+                    <td>す<br>su</td>
+                    <td>く<br>ku</td>
+                    <td>う<br>u</td>
+                    <td>-u</td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td>ゑ<br>we</td>
+                    <td>れ<br>re</td>
+                    <td><br></td>
+                    <td>め<br>me</td>
+                    <td>へ<br>he</td>
+                    <td>ね<br>ne</td>
+                    <td>て<br>te</td>
+                    <td>せ<br>se</td>
+                    <td>け<br>ke</td>
+                    <td>え<br>e</td>
+                    <td>-e</td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td>を<br>wo</td>
+                    <td>ろ<br>ro</td>
+                    <td>よ<br>yo</td>
+                    <td>も<br>mo</td>
+                    <td>ほ<br>ho</td>
+                    <td>の<br>no</td>
+                    <td>と<br>to</td>
+                    <td>そ<br>so</td>
+                    <td>こ<br>ko</td>
+                    <td>お<br>o</td>
+                    <td>-o</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="in-bl mbl-center">
+            <h3>katakana</h3>
+
+            <p class="pr--text">
+                základní abeceda
+            </p>
+            <table class="txt-center hiragana print-friendly">
+                <tbody>
+                <tr>
+                    <td>n</td>
+                    <td>w-</td>
+                    <td>r-</td>
+                    <td>y-</td>
+                    <td>m-</td>
+                    <td>h-</td>
+                    <td>n-</td>
+                    <td>t-</td>
+                    <td>s-</td>
+                    <td>k-</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>ン<br>n</td>
+                    <td>ワ<br>wa</td>
+                    <td>ラ<br>ra</td>
+                    <td>ヤ<br>ya</td>
+                    <td>マ<br>ma</td>
+                    <td>ハ<br>ha</td>
+                    <td>ナ<br>na</td>
+                    <td>タ<br>ta</td>
+                    <td>サ<br>sa</td>
+                    <td>カ<br>ka</td>
+                    <td>ア<br>a</td>
+                    <td>-a</td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td>ヰ<br>wi</td>
+                    <td>リ<br>ri</td>
+                    <td><br></td>
+                    <td>ミ<br>mi</td>
+                    <td>ヒ<br>hi</td>
+                    <td>ニ<br>ni</td>
+                    <td>チ<br>chi</td>
+                    <td>シ<br>shi</td>
+                    <td>キ<br>ki</td>
+                    <td>イ<br>i</td>
+                    <td>-i</td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td><br></td>
+                    <td>ル<br>ru</td>
+                    <td>ユ<br>yu</td>
+                    <td>ム<br>mu</td>
+                    <td>フ<br>fu</td>
+                    <td>ヌ<br>nu</td>
+                    <td>ツ<br>tsu</td>
+                    <td>ス<br>su</td>
+                    <td>ク<br>ku</td>
+                    <td>ウ<br>u</td>
+                    <td>-u</td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td>ヱ<br>we</td>
+                    <td>レ<br>re</td>
+                    <td><br></td>
+                    <td>メ<br>me</td>
+                    <td>ヘ<br>he</td>
+                    <td>ネ<br>ne</td>
+                    <td>テ<br>te</td>
+                    <td>セ<br>se</td>
+                    <td>ケ<br>ke</td>
+                    <td>エ<br>e</td>
+                    <td>-e</td>
+                </tr>
+                <tr>
+                    <td><br></td>
+                    <td>ヲ<br>wo</td>
+                    <td>ロ<br>ro</td>
+                    <td>ヨ<br>yo</td>
+                    <td>モ<br>mo</td>
+                    <td>ホ<br>ho</td>
+                    <td>ノ<br>no</td>
+                    <td>ト<br>to</td>
+                    <td>ソ<br>so</td>
+                    <td>コ<br>ko</td>
+                    <td>オ<br>o</td>
+                    <td>-o</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- ======================================================================================================================== -->
+    <div class="pr--wrap">
+        <h2 class="pr--title-h2">Kanji</h2>
+        <p class="pr--text">
+            Znaky kandži, které Japonci převzali z čínštiny, nezachycují výslovnost, ale pojmy. V určité omezené míře je tedy možné, aby Číňan i Japonec přečetli tentýž text každý svým jazykem a porozuměli mu. Úplnému porozumění ovšem brání několik faktorů:
+        <ul>
+            <li>Gramatická struktura jazyka a slovosled se liší. Čínština a japonština jsou zcela odlišné jazyky z různých jazykových rodin.</li>
+            <li>Japonské texty nikdy neobsahují pouze kandži, vždy jde o směs kandži a kany (tj. slabičných abeced hiragany a katakany), kterou čínština nepoužívá.</li>
+            <li>I když drtivou většinu znaků používaných v japonštině má nebo měla ve svém repertoáru i čínština, může se lišit jejich preferované užití v obou jazycích. Např. znak pro řeku ve většině čínských názvů řek je <span class="jpn-font">江</span> <em>(jiāng, ťiang)</em>, popř. <span class="jpn-font">河</span> <em>(hé, che)</em>. V japonštině je to <span class="jpn-font">川</span> <em>(kawa)</em>. Tento znak existuje i v čínštině, čte se <em>(chuan, čchuan)</em> a znamená „vodní tok“, ale v názvech řek se příliš často neobjevuje. Najdeme ho např. v názvu provincie S’-čchuan (<span class="jpn-font">四川</span>, doslova „Čtyřříčí“).</li>
+        </ul>
+
+        <p class="pr--text">
+            Na rozdíl od čínštiny má v japonštině každý znak několik možných čtení, správná výslovnost se určí podle kontextu. Některá čtení jsou tzv. <em>sinojaponská</em>, jde o zkomolenou původní čínskou výslovnost daného znaku. Tímto způsobem čínština masivně ovlivnila slovní zásobu japonštiny, když byla v minulosti Čína kulturním vzorem a čínština jazykem vzdělanců, podobně jako v Evropě latina a v Indii sanskrt. Kromě toho mají znaky i <em>japonské</em> čtení, tj. jedno nebo více japonských slov, odvozených od pojmu, kterému daný znak odpovídá. Sinojaponské čtení bývá preferováno ve složených slovech, ale existují výjimky. Čínská výslovnost už v něm mnohdy není slyšet (buď kvůli příliš velkým hláskovým změnám, nebo kvůli vývoji čínské výslovnosti od doby, kdy byl znak přejat). Přestože v čínštině znak vždy označuje právě jednu slabiku, sinojaponské čtení může být dvojslabičné (např. znak <span class="jpn-font">木</span> „strom“ se v současné čínštině čte <em>mù</em>, jeho sinojaponské čtení je <em>moku</em>, popř. <em>boku</em>.)
+        </p>
+
+        <p class="pr--text">
+            <em>příklad:</em>
+        </p>
+        <!-- TODO: Předělat i, b do css nebo em a strong -->
+        <table>
+            <tbody>
+                <tr>
+                    <td><a href="https://cs.wiktionary.org/wiki/%E4%B8%8A" class="extiw" title="wikt:上">上</a></td>
+                    <td>nahoře, nad
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>shàng</i></td>
+                    <td>
+                        čínsky (např. Shànghǎi (<span class="jpn-font"><b>上</b>海</span>) znamená „nad mořem“)
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>džó</i></td>
+                    <td>sinojaponsky (např. <i>džóhanšin</i> (<span class="jpn-font"><b>上</b>半身</span>) je „horní část těla“)
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>ue</i></td>
+                    <td>japonsky (např. <i>jama no ueni</i> (<span class="jpn-font">山の<b>上</b>に</span>) znamená „(nahoře) na horách“)
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>uwa</i></td>
+                    <td>japonsky (např. <i>uwagi</i> (<span class="jpn-font"><b>上</b>着</span>) je „kabát, svrchník“)
+                    </td></tr>
+                <tr>
+                    <td><i>kami</i></td>
+                    <td>japonsky (např. <i>kawa kami</i> (<span class="jpn-font">川<b>上</b></span>) je „horní tok řeky“)
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>a</i></td>
+                    <td>v&nbsp;japonském <i>ageru</i> (<span class="jpn-font"><b>上</b>げる</span>) „zvedat“ nebo <i>agaru</i> (<span class="jpn-font"><b>上</b>がる</span>) „stoupat“
+                    </td>
+                </tr>
+                <tr>
+                    <td><i>nobo</i></td>
+                    <td>v&nbsp;japonském <i>noboru</i> (<span class="jpn-font"><b>上</b>る</span>) „vystupovat“
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<!-- ============= CONTAINER - END ============== -->
+<footer>
+    <div class="credit">&copy; 2018 <a href="http://www.mandinecdominik.cz">Mandinec Dominik</a> - Studentský zápočtový projekt #FIM UHK</div>
+</footer>
+</body>
+</html>
