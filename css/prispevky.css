@@ -8,13 +8,13 @@ div.pr--wrap{
     /*border: 1px solid black;*/
     display: inline-block;
 }
-
+/* I AM SINGING IN THE RAIN*/
 /* článek na celou stránku */
 div.pr--article-100{
     /*background-color: #6B243D;*/
     width: 100%;
 }
-
+/* I AM SINGING IN THE RAIN!*/
 /* titulek příspěvku */
 h2.pr--title-h2{
     background-color: #0D2D38;
@@ -25,7 +25,7 @@ h2.pr--title-h2{
     border: 1px solid black;
     width: 100%;
 }
-
+/* WHAT A GLORIOUS DAY!*/
 /* titulek pod-příspěvku */
 h3.pr--title-h3{
     background-color: #0D2D38;
@@ -35,7 +35,7 @@ h3.pr--title-h3{
     text-align: center;
     border: 1px solid black;
 }
-
+/* WHEN I AM SINGING IN THE RAIN!*/
 /* odstavec */
 p.pr--text{
     line-height: 1.3;
